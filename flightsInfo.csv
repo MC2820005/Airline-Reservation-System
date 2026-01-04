@@ -1,0 +1,576 @@
+﻿Flight Number,Origin,Destination,Length of Flight hr's,Departure Date,Departure time,Seats Available,Adult Price Ticket,Child Price Ticket
+AA01,Heathrow Airport (UK),Beijing Capital International Airport (China),11.5,24/03/2026,03:39,8,920,534
+AB02,Gatwick Airport (UK),Indira Gandhi International Airport (India),9,22/11/2026,11:34,47,720,418
+AC03,Manchester Airport (UK),Narita International Airport (Japan),13.5,23/12/2026,18:25,57,580,336
+AD04,Birmingham Airport (UK),Incheon International Airport (South Korea),12.3,24/03/2026,07:20,33,984,571
+AE05,Edinburgh Airport (UK),Suvarnabhumi Airport (Thailand),11,05/11/2025,19:37,44,880,510
+AF06,Glasgow Airport (UK),Changi Airport (Singapore),14,06/10/2026,18:32,273,620,360
+AG07,Luton Airport (UK),Kuala Lumpur International Airport (Malaysia),15,16/02/2026,00:29,347,700,406
+AH08,Stansted Airport (UK),Soekarno–Hatta International Airport (Indonesia),12,30/11/2026,06:10,267,960,557
+AI09,Bristol Airport (UK),Tan Son Nhat International Airport (Vietnam),14,01/11/2025,08:08,340,620,360
+AJ10,Leeds Bradford Airport (UK),Dubai International Airport (UAE),6,31/10/2026,01:26,346,480,278
+AK11,Newcastle Airport (UK),Frankfurt Airport (Germany),2,24/03/2026,18:29,17,160,93
+AL12,London City Airport (UK),Charles de Gaulle Airport (France),1,22/11/2026,21:36,337,80,46
+AM13,Aberdeen Airport (UK),Leonardo da Vinci International Airport (Italy),3,23/12/2026,19:25,42,240,139
+AN14,East Midlands Airport (UK),Adolfo Suárez Madrid–Barajas Airport (Spain),2.5,24/03/2026,16:52,247,200,116
+AO15,Cardiff Airport (UK),Schiphol Airport (Netherlands),4,05/11/2025,06:17,87,320,186
+AP16,Belfast International Airport (UK),Murtala Muhammed International Airport (Nigeria),9,06/10/2026,11:06,226,720,418
+AQ17,London Southend Airport (UK),Cairo International Airport (Egypt),6,16/02/2026,16:58,213,480,278
+AR18,Inverness Airport (UK),O. R. Tambo International Airport (South Africa),12,30/11/2026,07:47,71,960,557
+AS19,Doncaster Sheffield Airport (UK),São Paulo–Guarulhos International Airport (Brazil),14,01/11/2025,11:57,244,620,360
+AT20,Southampton Airport (UK),Ministro Pistarini International Airport (Argentina),15,31/10/2026,22:45,133,700,406
+AU21,Newcastle International Airport (UK),Comodoro Arturo Merino Benítez International Airport (Chile),14,16/11/2025,05:57,220,620,360
+AV22,Manchester Ringway Airport (UK),John F. Kennedy International Airport (United States),11,27/05/2026,16:17,10,880,510
+AW23,London Heathrow Terminal 5 (UK),Toronto Pearson International Airport (Canada),16,25/09/2026,17:39,20,780,452
+AX24,Gatwick North Terminal (UK),Sydney Kingsford Smith Airport (Australia),24,15/03/2026,17:14,22,1420,824
+BY01,Jinnah International Airport (Pakistan),Hong Kong International Airport (Hong Kong),7,21/03/2026,12:56,269,560,325
+BZ02,Allama Iqbal International Airport (Pakistan),Changi Airport (Singapore),6,26/07/2026,16:56,207,480,278
+BA03,Lahore International Airport (Pakistan),Indira Gandhi International Airport (India),2,13/09/2026,00:42,302,160,93
+BB04,Islamabad International Airport (Pakistan),Soekarno-Hatta International Airport (Indonesia),6,09/03/2026,16:45,223,480,278
+BC05,Peshawar Bacha Khan International Airport (Pakistan),Suvarnabhumi Airport (Thailand),7,02/03/2026,12:48,282,560,325
+BD06,Sialkot International Airport (Pakistan),Kuala Lumpur International Airport (Malaysia),6,10/11/2025,03:03,4,480,278
+BE07,Multan International Airport (Pakistan),Narita International Airport (Japan),7,11/11/2025,15:09,151,560,325
+BF08,Faisalabad International Airport (Pakistan),Incheon International Airport (South Korea),7.5,23/03/2026,16:20,312,600,348
+BG09,Quetta International Airport (Pakistan),Dubai International Airport (UAE),3,29/01/2027,04:28,98,240,139
+BH10,Skardu Airport (Pakistan),Charles de Gaulle Airport (France),6,15/12/2025,11:54,348,480,278
+BI11,Gwadar International Airport (Pakistan),Frankfurt Airport (Germany),5,29/09/2026,08:49,234,400,232
+BJ12,Karachi International Airport (Pakistan),Leonardo da Vinci International Airport (Italy),5,16/11/2025,10:14,295,400,232
+BK13,Rahim Yar Khan International Airport (Pakistan),Madrid-Barajas Airport (Spain),5.5,14/05/2026,20:35,1,440,255
+BL14,Bahawalpur Airport (Pakistan),Schiphol Airport (Netherlands),4.5,09/11/2025,11:06,9,360,209
+BM15,Dera Ismail Khan Airport (Pakistan),Zurich Airport (Switzerland),4,05/08/2026,03:07,89,320,186
+BN16,Lahore Sialkot International Airport (Pakistan),O. R. Tambo International Airport (South Africa),7,14/05/2026,05:25,190,560,325
+BO17,Islamabad Benazir Bhutto International Airport (Pakistan),Cairo International Airport (Egypt),5,13/08/2026,05:33,229,400,232
+BP18,Rawalpindi International Airport (Pakistan),Murtala Muhammed International Airport (Nigeria),5.5,11/01/2026,13:34,95,440,255
+BQ19,Khyber Pakhtunkhwa Airport (Pakistan),São Paulo-Guarulhos International Airport (Brazil),15,16/01/2026,19:07,300,700,406
+BR20,Chitral Airport (Pakistan),Ministro Pistarini International Airport (Argentina),16,26/12/2025,03:50,12,780,452
+BS21,Mirpur Airport (Pakistan),El Dorado International Airport (Colombia),14,01/07/2026,15:31,9,620,360
+BT22,Swat Airport (Pakistan),John F. Kennedy International Airport (United States),20,24/05/2026,18:32,84,1100,638
+BU23,Ziarat Airport (Pakistan),Toronto Pearson International Airport (Canada),22,25/04/2026,13:33,6,1260,731
+BV24,Hala Airport (Pakistan),Sydney Kingsford Smith Airport (Australia),18,18/01/2027,08:21,205,940,545
+CW01,Indira Gandhi International Airport (India),Jinnah International Airport (Pakistan),2,08/06/2026,13:28,232,160,93
+CX02,Chhatrapati Shivaji Maharaj International Airport (India),Allama Iqbal International Airport (Pakistan),2,02/05/2026,23:15,321,160,93
+CY03,Netaji Subhash Chandra Bose International Airport (India),Benazir Bhutto International Airport (Pakistan),2,28/08/2026,20:36,62,160,93
+CZ04,Kempegowda International Airport (India),Faisalabad International Airport (Pakistan),2,21/10/2026,11:11,230,160,93
+CA05,Rajiv Gandhi International Airport (India),Multan International Airport (Pakistan),2,10/01/2027,12:45,96,160,93
+CB06,Chennai International Airport (India),Sialkot International Airport (Pakistan),2,23/03/2026,05:29,155,160,93
+CC07,Sardar Vallabhbhai Patel International Airport (India),Quetta International Airport (Pakistan),2,26/02/2026,09:51,40,160,93
+CD08,Pune International Airport (India),Peshawar Bacha Khan International Airport (Pakistan),2,26/09/2026,03:48,208,160,93
+CE09,Cochin International Airport (India),Islamabad International Airport (Pakistan),2,17/11/2025,12:43,254,160,93
+CF10,Goa International Airport (India),Karachi Port Trust Airport (Pakistan),2,05/07/2026,15:29,100,160,93
+CG11,Jaipur International Airport (India),Skardu Airport (Pakistan),2,15/03/2026,17:20,93,160,93
+CH12,Lucknow International Airport (India),Chitral Airport (Pakistan),2,17/03/2026,10:15,68,160,93
+CI13,Ahmedabad Sardar Vallabhbhai Patel Airport (India),Tribhuvan International Airport (Nepal),1,23/01/2026,16:58,192,80,46
+CJ14,Hyderabad Rajiv Gandhi Airport (India),Pokhara Airport (Nepal),1,29/05/2026,14:52,49,80,46
+CK15,Bengaluru International Airport (India),Lukla Tenzing-Hillary Airport (Nepal),1,30/07/2026,22:58,61,80,46
+CL16,Thiruvananthapuram International Airport (India),Bhairahawa Gautam Buddha International Airport (Nepal),1,08/04/2026,15:37,163,80,46
+CM17,Vadodara Airport (India),Bandaranaike International Airport (Sri Lanka),1.5,19/04/2026,21:44,298,120,70
+CN18,Surat International Airport (India),Mattala Rajapaksa International Airport (Sri Lanka),1.5,20/12/2026,21:30,235,120,70
+CO19,Indore Devi Ahilya Bai Holkar Airport (India),Colombo Ratmalana Airport (Sri Lanka),1.5,11/05/2026,06:46,223,120,70
+CP20,Madurai Airport (India),Jaffna International Airport (Sri Lanka),1.5,09/09/2026,15:23,81,120,70
+CQ21,Visakhapatnam Airport (India),Mehrabad International Airport (Iran),3,26/12/2026,22:26,127,240,139
+CR22,Nagpur Dr. Babasaheb Ambedkar International Airport (India),Tehran Imam Khomeini International Airport (Iran),3,21/01/2026,02:16,276,240,139
+CS23,Mangalore International Airport (India),Shiraz International Airport (Iran),4,20/02/2026,22:16,46,320,186
+CT24,Chandigarh International Airport (India),Isfahan International Airport (Iran),4,26/12/2026,23:00,68,320,186
+DU01,Beijing Capital International Airport (China),Tabriz International Airport (Iran),4,15/06/2026,19:12,165,320,186
+DV02,Shanghai Pudong International Airport (China),Mashhad International Airport (Iran),3,07/09/2026,02:36,141,240,139
+DW03,Guangzhou Baiyun International Airport (China),Rasht International Airport (Iran),3,17/11/2026,17:47,245,240,139
+DX04,Shenzhen Bao'an International Airport (China),Qeshm International Airport (Iran),3,25/06/2026,18:37,84,240,139
+DY05,Chengdu Shuangliu International Airport (China),Nairobi Jomo Kenyatta International Airport (Kenya),10,31/12/2026,22:17,154,800,464
+DZ06,Hong Kong International Airport (China),Mombasa Moi International Airport (Kenya),10,09/12/2025,11:28,175,800,464
+DA07,Xi'an Xianyang International Airport (China),Kilimanjaro International Airport (Tanzania),10,10/04/2026,15:14,323,800,464
+DB08,Kunming Changshui International Airport (China),Zanzibar International Airport (Tanzania),8,29/10/2026,12:19,93,640,371
+DC09,Wuhan Tianhe International Airport (China),Entebbe International Airport (Uganda),12,25/01/2026,00:15,260,960,557
+DD10,Chengdu Shuangliu International Airport (China),Kampala International Airport (Uganda),12,17/05/2026,07:28,347,960,557
+DE11,Hangzhou Xiaoshan International Airport (China),Jinja Airport (Uganda),12,11/01/2026,07:54,82,960,557
+DF12,Nanjing Lukou International Airport (China),Addis Ababa Bole International Airport (Ethiopia),12,24/05/2026,08:31,70,960,557
+DG13,Dalian Zhoushuizi International Airport (China),Mekele Airport (Ethiopia),14,28/04/2026,14:16,164,620,360
+DH14,Qingdao Liuting International Airport (China),Gonder Airport (Ethiopia),14,26/11/2026,23:41,273,620,360
+DI15,Tianjin Binhai International Airport (China),Arba Minch Airport (Ethiopia),14,16/11/2026,18:07,259,620,360
+DJ16,Changsha Huanghua International Airport (China),Accra Kotoka International Airport (Ghana),13,10/10/2026,19:46,301,540,313
+DK17,Xi'an Xianyang International Airport (China),Kumasi International Airport (Ghana),13,02/10/2026,13:13,319,540,313
+DL18,Fuzhou Changle International Airport (China),Takoradi Airport (Ghana),13,08/02/2026,09:13,273,540,313
+DM19,Harbin Taiping International Airport (China),Felix-Houphouët-Boigny International Airport (Ivory Coast),11,24/07/2026,03:56,136,880,510
+DN20,Chongqing Jiangbei International Airport (China),Bouaké Airport (Ivory Coast),11,28/04/2026,09:58,182,880,510
+DO21,Xiamen Gaoqi International Airport (China),Yamoussoukro Airport (Ivory Coast),11,11/07/2026,22:48,82,880,510
+DP22,Shenyang Taoxian International Airport (China),Incheon International Airport (South Korea),7,14/12/2026,08:54,168,560,325
+DQ23,Haikou Meilan International Airport (China),Gimpo International Airport (South Korea),7,06/01/2026,21:23,321,560,325
+DR24,Lijiang Sanyi Airport (China),Jeju International Airport (South Korea),7,07/09/2026,06:48,150,560,325
+ES01,John F. Kennedy International Airport (USA),Busan Gimhae International Airport (South Korea),20,30/01/2026,03:39,328,1100,638
+ET02,Los Angeles International Airport (USA),Daegu International Airport (South Korea),20,07/05/2026,04:59,298,1100,638
+EU03,Chicago O'Hare International Airport (USA),Muan International Airport (South Korea),20,25/09/2026,13:37,170,1100,638
+EV04,San Francisco International Airport (USA),Ninoy Aquino International Airport (Philippines),21,08/04/2026,06:23,336,1180,684
+EW05,Denver International Airport (USA),Mactan-Cebu International Airport (Philippines),21,06/11/2025,06:07,298,1180,684
+EX06,Seattle-Tacoma International Airport (USA),Davao International Airport (Philippines),21,15/06/2026,12:00,199,1180,684
+EY07,Orlando International Airport (USA),Kalibo International Airport (Philippines),21,21/11/2026,08:39,345,1180,684
+EZ08,Dallas/Fort Worth International Airport (USA),Iloilo International Airport (Philippines),21,14/03/2026,14:36,61,1180,684
+EA09,Miami International Airport (USA),Zamboanga International Airport (Philippines),21,07/12/2025,19:23,2,1180,684
+EB10,Atlanta Hartsfield-Jackson International Airport (USA),Yangon International Airport (Myanmar),15,17/06/2026,12:00,273,700,406
+EC11,Boston Logan International Airport (USA),Mandalay International Airport (Myanmar),15,05/05/2026,19:56,252,700,406
+ED12,Minneapolis-Saint Paul International Airport (USA),Naypyidaw International Airport (Myanmar),15,21/09/2026,18:28,323,700,406
+EE13,Newark Liberty International Airport (USA),Heho Airport (Myanmar),15,03/01/2026,23:06,204,700,406
+EF14,Charlotte Douglas International Airport (USA),Lashio Airport (Myanmar),15,17/05/2026,02:26,32,700,406
+EG15,Phoenix Sky Harbor International Airport (USA),Bagan Nyaung U Airport (Myanmar),15,26/07/2026,15:11,156,700,406
+EH16,Detroit Metropolitan Airport (USA),Phnom Penh International Airport (Cambodia),13,19/06/2026,13:59,115,540,313
+EI17,Philadelphia International Airport (USA),Siem Reap International Airport (Cambodia),13,23/11/2025,04:32,212,540,313
+EJ18,Washington Dulles International Airport (USA),Sihanoukville International Airport (Cambodia),13,12/01/2026,21:46,172,540,313
+EK19,San Diego International Airport (USA),Battambang Airport (Cambodia),13,18/04/2026,12:08,338,540,313
+EL20,Tampa International Airport (USA),Kep Airport (Cambodia),13,25/09/2026,16:34,131,540,313
+EM21,Washington International Thurgood Marshall Airport (USA),Wattay International Airport (Laos),12.5,29/05/2026,03:17,264,1000,580
+EN22,Salt Lake City International Airport (USA),Luang Prabang International Airport (Laos),12.5,27/10/2026,06:16,112,1000,580
+EO23,Kansas City International Airport (USA),Pakse International Airport (Laos),12.5,30/08/2026,08:15,311,1000,580
+EP24,St. Louis Lambert International Airport (USA),Savannakhet Airport (Laos),12.5,26/12/2025,09:34,182,1000,580
+FQ01,Benito Juarez International Airport (Mexico),Xieng Khouang Airport (Laos),9.5,23/04/2026,02:41,142,760,441
+FR02,Cancún International Airport (Mexico),Kuala Lumpur International Airport (Malaysia),11,30/01/2026,23:32,314,880,510
+FS03,Monterrey International Airport (Mexico),Penang International Airport (Malaysia),11,18/04/2026,18:36,165,880,510
+FT04,Guadalajara International Airport (Mexico),Langkawi International Airport (Malaysia),11,09/01/2026,00:31,259,880,510
+FU05,Mérida International Airport (Mexico),Kota Kinabalu International Airport (Malaysia),11,27/04/2026,02:49,240,880,510
+FV06,Puerto Vallarta International Airport (Mexico),Senai International Airport (Malaysia),11,09/09/2026,21:16,213,880,510
+FW07,Tijuana International Airport (Mexico),Sultan Abdul Aziz Shah Airport (Malaysia),11,03/07/2026,15:11,3,880,510
+FX08,León Bajío International Airport (Mexico),Tan Son Nhat International Airport (Vietnam),14,21/01/2027,04:39,339,620,360
+FY09,Oaxaca International Airport (Mexico),Noi Bai International Airport (Vietnam),14,27/12/2026,15:56,90,620,360
+FZ10,Hermosillo International Airport (Mexico),Da Nang International Airport (Vietnam),14,15/09/2026,01:42,38,620,360
+FA11,San Luis Potosí International Airport (Mexico),Phu Quoc International Airport (Vietnam),14,14/02/2026,05:42,75,620,360
+FB12,Veracruz General Heriberto Jara International Airport (Mexico),Dushanbe International Airport (Tajikistan),14,13/08/2026,22:14,184,620,360
+FC13,Mazatlán International Airport (Mexico),Khujand International Airport (Tajikistan),14,09/11/2025,05:22,57,620,360
+FD14,Aguascalientes International Airport (Mexico),Khorog Airport (Tajikistan),14,18/05/2026,05:35,235,620,360
+FE15,Culiacán International Airport (Mexico),Paro International Airport (Bhutan),16,16/05/2026,01:35,339,780,452
+FF16,La Paz International Airport (Mexico),Chennai International Airport (India),18,23/09/2026,07:20,58,940,545
+FG17,Chihuahua International Airport (Mexico),Goa International Airport (India),18,11/10/2026,12:08,105,940,545
+FH18,Torreón Francisco Sarabia International Airport (Mexico),Shirdi Airport (India),18,15/06/2026,12:19,169,940,545
+FI19,Durango International Airport (Mexico),Rajiv Gandhi International Airport (India),18,04/08/2026,21:05,340,940,545
+FJ20,Saltillo Airport (Mexico),Indira Gandhi International Airport (India),18,27/06/2026,22:10,4,940,545
+FK21,Zacatecas General Leobardo C. Ruiz International Airport (Mexico),Kazakhstan International Airport (Kazakhstan),19.2,15/06/2026,02:10,257,1036,601
+FL22,Monclova International Airport (Mexico),Astana International Airport (Kazakhstan),19.2,06/11/2026,07:38,167,1036,601
+FM23,Acapulco International Airport (Mexico),Qatar International Airport (Qatar),17.3,23/02/2026,19:37,145,884,513
+FN24,Sao Paulo–Guarulhos International Airport (Brazil),Doha Hamad International Airport (Qatar),12.2,18/01/2026,14:09,81,976,566
+GO01,Rio de Janeiro–Galeão International Airport (Brazil),King Khalid International Airport (Saudi Arabia),10.4,18/01/2026,22:35,334,832,483
+GP02,Brasilia International Airport (Brazil),Jeddah King Abdulaziz International Airport (Saudi Arabia),10.4,17/10/2026,09:45,325,832,483
+GQ03,Tancredo Neves International Airport (Brazil),Prince Mohammad bin Abdulaziz International Airport (Saudi Arabia),10.4,14/11/2025,20:29,319,832,483
+GR04,Ministro Pistarini International Airport (Brazil),Beirut Rafic Hariri International Airport (Lebanon),9.5,12/03/2026,15:47,292,760,441
+GS05,Salvador Deputado Luís Eduardo Magalhães International Airport (Brazil),Queen Alia International Airport (Jordan),9.2,05/06/2026,21:51,90,736,427
+GT06,Recife/Guararapes–Gilberto Freyre International Airport (Brazil),Muscat International Airport (Oman),10.5,03/02/2026,02:38,201,840,487
+GU07,Fortaleza Pinto Martins – Fortaleza International Airport (Brazil),Kuwait International Airport (Kuwait),11.5,07/03/2026,12:11,155,920,534
+GV08,Curitiba Afonso Pena International Airport (Brazil),Bahrain International Airport (Bahrain),12,19/01/2027,21:18,289,960,557
+GW09,Manaus Eduardo Gomes International Airport (Brazil),Silvio Pettirossi International Airport (Paraguay),3.2,14/09/2026,19:27,347,256,148
+GX10,Natal Augusto Severo International Airport (Brazil),Asunción Silvio Pettirossi International Airport (Paraguay),3.2,09/11/2025,02:40,57,256,148
+GY11,Porto Alegre Salgado Filho International Airport (Brazil),Carlos Antonio López International Airport (Paraguay),3.2,28/08/2026,22:17,293,256,148
+GZ12,Belem Val de Cans International Airport (Brazil),Simón Bolívar International Airport (Venezuela),2.5,17/01/2026,00:10,101,200,116
+GA13,Campinas Viracopos International Airport (Brazil),Cumana Airport (Venezuela),2.5,05/08/2026,22:21,98,200,116
+GB14,Cuiaba Marechal Rondon International Airport (Brazil),La Chinita International Airport (Venezuela),2.5,08/10/2026,11:20,137,200,116
+GC15,Vitoria Eurico de Aguiar Salles Airport (Brazil),Boryspil International Airport (Ukraine),13.5,22/09/2026,19:26,341,580,336
+GD16,Goiania Santa Genoveva International Airport (Brazil),Lviv Danylo Halytskyi International Airport (Ukraine),13.5,30/10/2026,04:57,242,580,336
+GE17,Maceió Zumbi dos Palmares International Airport (Brazil),Odesa International Airport (Ukraine),13.5,24/12/2026,17:54,77,580,336
+GF18,Joao Pessoa Presidente Castro Pinto International Airport (Brazil),Donetsk International Airport (Ukraine),13.5,31/07/2026,08:27,292,580,336
+GG19,Santos Dumont Airport (Brazil),Kharkiv International Airport (Ukraine),13.5,14/05/2026,06:18,96,580,336
+GH20,Cuiabá Marechal Rondon International Airport (Brazil),Simferopol International Airport (Ukraine),13.5,06/10/2026,08:18,112,580,336
+GI21,Aracaju Santa Maria Airport (Brazil),Jinnah International Airport (Pakistan),15.3,27/07/2026,10:03,135,724,420
+GJ22,Belo Horizonte Tancredo Neves International Airport (Brazil),Allama Iqbal International Airport (Pakistan),15.3,09/08/2026,18:30,333,724,420
+GK23,El Dorado International Airport (Colombia),Benazir Bhutto International Airport (Pakistan),15.3,18/01/2026,00:29,84,724,420
+GL24,José María Córdova International Airport (Colombia),Faisalabad International Airport (Pakistan),15.3,18/03/2026,07:52,17,724,420
+HM01,Cartagena Rafael Núñez International Airport (Colombia),Multan International Airport (Pakistan),15.3,16/09/2026,19:21,122,724,420
+HN02,Pereira Matecaña International Airport (Colombia),Sialkot International Airport (Pakistan),15.3,27/10/2026,15:03,81,724,420
+HO03,Cali Alfonso Bonilla Aragón International Airport (Colombia),Quetta International Airport (Pakistan),15.3,10/04/2026,01:35,2,724,420
+HP04,Barranquilla Ernesto Cortissoz International Airport (Colombia),Peshawar Bacha Khan International Airport (Pakistan),15.3,07/03/2026,09:25,9,724,420
+HQ05,Medellin José María Córdova International Airport (Colombia),Islamabad International Airport (Pakistan),15.3,29/10/2026,01:46,182,724,420
+HR06,Bucaramanga Palonegro International Airport (Colombia),Karachi Port Trust Airport (Pakistan),15.3,01/03/2026,13:38,130,724,420
+HS07,Santa Marta Simón Bolívar International Airport (Colombia),Skardu Airport (Pakistan),15.3,05/12/2025,20:06,142,724,420
+HT08,San Andrés Gustavo Rojas Pinilla International Airport (Colombia),Chitral Airport (Pakistan),15.3,17/11/2025,12:42,63,724,420
+HU09,Pasto Antonio Nariño Airport (Colombia),Tribhuvan International Airport (Nepal),16.7,11/03/2026,13:47,326,836,485
+HV10,Manizales La Nubia Airport (Colombia),Pokhara Airport (Nepal),16.7,12/10/2026,07:32,19,836,485
+HW11,Armenia El Edén International Airport (Colombia),Lukla Tenzing-Hillary Airport (Nepal),16.7,17/05/2026,01:14,118,836,485
+HX12,Neiva Benito Salas Airport (Colombia),Bhairahawa Gautam Buddha International Airport (Nepal),16.7,03/07/2026,13:37,22,836,485
+HY13,Popayán Guillermo León Valencia Airport (Colombia),Bandaranaike International Airport (Sri Lanka),15.8,01/02/2026,06:12,294,764,443
+HZ14,Quibdó El Caraño Airport (Colombia),Mattala Rajapaksa International Airport (Sri Lanka),15.8,20/09/2026,14:07,131,764,443
+HA15,Tumaco La Florida Airport (Colombia),Colombo Ratmalana Airport (Sri Lanka),15.8,16/02/2026,00:28,82,764,443
+HB16,Riohacha Almirante Padilla International Airport (Colombia),Jaffna International Airport (Sri Lanka),15.8,06/02/2026,06:39,130,764,443
+HC17,Valledupar Alfonso López Michelsen International Airport (Colombia),Mehrabad International Airport (Iran),17.2,13/12/2026,09:00,287,876,508
+HD18,Montería Los Garzones Airport (Colombia),Tehran Imam Khomeini International Airport (Iran),17.2,12/04/2026,01:52,271,876,508
+HE19,Leticia Alfredo Vásquez Cobo International Airport (Colombia),Shiraz International Airport (Iran),17.2,05/01/2027,07:06,142,876,508
+HF20,Paris Charles de Gaulle Airport (France),Isfahan International Airport (Iran),9.4,16/03/2026,18:46,245,752,436
+HG21,Nice Côte d'Azur Airport (France),Tabriz International Airport (Iran),9.4,20/12/2025,15:44,111,752,436
+HH22,Lyon-Saint-Exupéry Airport (France),Mashhad International Airport (Iran),9.4,29/10/2026,03:47,18,752,436
+HI23,Marseille Provence Airport (France),Rasht International Airport (Iran),9.4,29/12/2026,21:49,30,752,436
+HJ24,Toulouse-Blagnac Airport (France),Qeshm International Airport (Iran),9.4,15/01/2026,10:34,82,752,436
+IK01,Bordeaux-Mérignac Airport (France),Nairobi Jomo Kenyatta International Airport (Kenya),7.5,06/11/2025,00:08,28,600,348
+IL02,Nantes Atlantique Airport (France),Mombasa Moi International Airport (Kenya),7.5,18/01/2026,13:55,162,600,348
+IM03,Lille Lesquin Airport (France),Kilimanjaro International Airport (Tanzania),8.5,12/01/2026,19:08,293,680,394
+IN04,Strasbourg Airport (France),Zanzibar International Airport (Tanzania),8.5,02/03/2026,10:01,325,680,394
+IO05,Montpellier Méditerranée Airport (France),Entebbe International Airport (Uganda),9.3,09/12/2025,15:52,241,744,432
+IP06,Rennes Bretagne Airport (France),Kampala International Airport (Uganda),9.3,12/11/2026,13:08,162,744,432
+IQ07,Brest Bretagne Airport (France),Jinja Airport (Uganda),9.3,10/01/2026,09:35,60,744,432
+IR08,Lorient Bretagne Sud Airport (France),Addis Ababa Bole International Airport (Ethiopia),9.1,13/04/2026,09:19,243,728,422
+IS09,Dijon Bourgogne Airport (France),Mekele Airport (Ethiopia),9.1,17/07/2026,18:58,235,728,422
+IT10,Toulon-Hyères Airport (France),Gonder Airport (Ethiopia),9.1,01/04/2026,05:07,85,728,422
+IU11,Ajaccio Napoleon Bonaparte Airport (France),Arba Minch Airport (Ethiopia),9.1,22/12/2026,22:58,281,728,422
+IV12,Corsica Bastia Poretta Airport (France),Accra Kotoka International Airport (Ghana),9.7,25/08/2026,00:28,79,776,450
+IW13,Perpignan-Rivesaltes Airport (France),Kumasi International Airport (Ghana),9.7,24/06/2026,14:18,229,776,450
+IX14,Beauvais Tille Airport (France),Takoradi Airport (Ghana),9.7,25/12/2025,13:21,314,776,450
+IY15,Clermont-Ferrand Auvergne Airport (France),Felix-Houphouët-Boigny International Airport (Ivory Coast),9.6,21/05/2026,09:44,94,768,445
+IZ16,Chambery Airport (France),Bouaké Airport (Ivory Coast),9.6,04/08/2026,21:28,176,768,445
+IA17,Saint-Étienne-Bouthéon Airport (France),Yamoussoukro Airport (Ivory Coast),9.6,17/11/2025,02:42,274,768,445
+IB18,Mulhouse-Habsheim Airport (France),Incheon International Airport (South Korea),15.4,07/08/2026,20:17,168,732,425
+IC19,Nouakchott International Airport (Mauritania),Gimpo International Airport (South Korea),17,21/01/2026,04:59,230,860,499
+ID20,Murtala Muhammed International Airport (Nigeria),Jeju International Airport (South Korea),10,02/05/2026,04:32,213,800,464
+IE21,Nnamdi Azikiwe International Airport (Nigeria),Busan Gimhae International Airport (South Korea),10,13/10/2026,05:58,203,800,464
+IF22,Port Harcourt International Airport (Nigeria),Daegu International Airport (South Korea),10,12/11/2026,10:05,283,800,464
+IG23,Akanu Ibiam International Airport (Nigeria),Muan International Airport (South Korea),10,04/04/2026,14:30,233,800,464
+IH24,Ahmadu Bello International Airport (Nigeria),Ninoy Aquino International Airport (Philippines),11,18/11/2025,06:29,300,880,510
+JI01,Mallam Aminu Kano International Airport (Nigeria),Mactan-Cebu International Airport (Philippines),11,03/11/2025,10:22,19,880,510
+JJ02,Kaduna International Airport (Nigeria),Davao International Airport (Philippines),11,27/11/2026,17:14,336,880,510
+JK03,Makurdi Airport (Nigeria),Kalibo International Airport (Philippines),11,04/12/2025,06:57,8,880,510
+JL04,Benin Airport (Nigeria),Iloilo International Airport (Philippines),11,17/07/2026,05:08,270,880,510
+JM05,Yola Airport (Nigeria),Zamboanga International Airport (Philippines),11,05/10/2026,15:44,152,880,510
+JN06,Zaria Airport (Nigeria),Yangon International Airport (Myanmar),12,04/12/2026,05:46,151,960,557
+JO07,Ibadan Airport (Nigeria),Mandalay International Airport (Myanmar),12,26/03/2026,19:05,95,960,557
+JP08,Calabar Airport (Nigeria),Naypyidaw International Airport (Myanmar),21,08/05/2026,20:46,349,1180,684
+JQ09,Kano International Airport (Nigeria),Heho Airport (Myanmar),12,08/12/2025,16:32,168,960,557
+JR10,Lagos International Airport (Nigeria),Lashio Airport (Myanmar),12,01/10/2026,11:53,278,960,557
+JS11,Abuja International Airport (Nigeria),Bagan Nyaung U Airport (Myanmar),12,29/07/2026,12:13,72,960,557
+JT12,Enugu Airport (Nigeria),Phnom Penh International Airport (Cambodia),13,07/06/2026,04:40,293,540,313
+JU13,Port Harcourt International Airport (Nigeria),Siem Reap International Airport (Cambodia),13,17/11/2026,19:16,7,540,313
+JV14,Sokoto International Airport (Nigeria),Sihanoukville International Airport (Cambodia),13,06/03/2026,14:58,105,540,313
+JW15,Ilorin Airport (Nigeria),Battambang Airport (Cambodia),13,14/05/2026,03:45,52,540,313
+JX16,Minna International Airport (Nigeria),Kep Airport (Cambodia),13,09/09/2026,13:55,73,540,313
+JY17,Asaba International Airport (Nigeria),Wattay International Airport (Laos),14,20/11/2026,03:21,12,620,360
+JZ18,Sydney Kingsford Smith Airport (Australia),Luang Prabang International Airport (Laos),14,02/12/2025,17:45,22,620,360
+JA19,Melbourne Tullamarine Airport (Australia),Pakse International Airport (Laos),19,21/01/2026,05:07,292,1020,592
+JB20,Brisbane Airport (Australia),Savannakhet Airport (Laos),19,23/01/2026,23:06,20,1020,592
+JC21,Adelaide Airport (Australia),Xieng Khouang Airport (Laos),19,16/12/2025,00:11,149,1020,592
+JD22,Perth Airport (Australia),Kuala Lumpur International Airport (Malaysia),14,07/12/2025,00:51,153,620,360
+JE23,Gold Coast Airport (Australia),Penang International Airport (Malaysia),14,28/05/2026,03:44,54,620,360
+JF24,Canberra Airport (Australia),Langkawi International Airport (Malaysia),14,09/08/2026,03:31,41,620,360
+KG01,Hobart International Airport (Australia),Kota Kinabalu International Airport (Malaysia),14,24/02/2026,23:11,323,620,360
+KH02,Darwin International Airport (Australia),Senai International Airport (Malaysia),14,23/04/2026,10:30,344,620,360
+KI03,Cairns Airport (Australia),Sultan Abdul Aziz Shah Airport (Malaysia),14,03/09/2026,21:36,289,620,360
+KJ04,Launceston Airport (Australia),Tan Son Nhat International Airport (Vietnam),13,13/10/2026,16:59,69,540,313
+KK05,Ayers Rock Airport (Australia),Noi Bai International Airport (Vietnam),13,18/12/2025,14:04,200,540,313
+KL06,Townsville Airport (Australia),Da Nang International Airport (Vietnam),13,16/05/2026,04:52,100,540,313
+KM07,Mackay Airport (Australia),Phu Quoc International Airport (Vietnam),13,02/12/2025,02:16,1,540,313
+KN08,Rockhampton Airport (Australia),Dushanbe International Airport (Tajikistan),12,16/07/2026,14:34,320,960,557
+KO09,Ballina Byron Gateway Airport (Australia),Khujand International Airport (Tajikistan),12,30/12/2025,17:50,312,960,557
+KP10,Tweed Heads Airport (Australia),Khorog Airport (Tajikistan),12,03/04/2026,14:43,27,960,557
+KQ11,Launceston Airport (Australia),Paro International Airport (Bhutan),11,07/05/2026,10:43,107,880,510
+KR12,Melbourne Avalon Airport (Australia),Chennai International Airport (India),13,23/03/2026,12:40,340,540,313
+KS13,Wellington International Airport (New Zealand),Goa International Airport (India),16,10/11/2025,12:17,79,780,452
+KT14,Auckland Airport (New Zealand),Shirdi Airport (India),16,04/10/2026,23:42,263,780,452
+KU15,Christchurch International Airport (New Zealand),Rajiv Gandhi International Airport (India),16,13/01/2027,11:29,274,780,452
+KV16,Queenstown International Airport (New Zealand),Indira Gandhi International Airport (India),16,07/01/2027,13:36,326,780,452
+KW17,Hamilton International Airport (New Zealand),Kazakhstan International Airport (Kazakhstan),17,10/12/2026,03:31,328,860,499
+KX18,Dunedin International Airport (New Zealand),Astana International Airport (Kazakhstan),17,16/04/2026,06:28,32,860,499
+KY19,Napier-Hastings Airport (New Zealand),Qatar International Airport (Qatar),15,05/05/2026,17:24,301,700,406
+KZ20,Rotorua Regional Airport (New Zealand),Doha Hamad International Airport (Qatar),15,03/04/2026,21:49,308,700,406
+KA21,Tauranga Airport (New Zealand),King Khalid International Airport (Saudi Arabia),19,16/07/2026,01:03,125,1020,592
+KB22,New Plymouth Airport (New Zealand),Jeddah King Abdulaziz International Airport (Saudi Arabia),19,22/10/2026,10:24,294,1020,592
+KC23,Palmerston North Airport (New Zealand),Prince Mohammad bin Abdulaziz International Airport (Saudi Arabia),19,28/10/2026,10:15,35,1020,592
+KD24,Nelson Airport (New Zealand),Beirut Rafic Hariri International Airport (Lebanon),15,31/07/2026,13:20,145,700,406
+LE01,Invercargill Airport (New Zealand),Queen Alia International Airport (Jordan),14,21/08/2026,17:12,298,620,360
+LF02,Timaru Airport (New Zealand),Muscat International Airport (Oman),13,23/05/2026,05:59,35,540,313
+LG03,Kaitaia Airport (New Zealand),Kuwait International Airport (Kuwait),12.5,02/12/2026,22:14,283,1000,580
+LH04,Whangarei Airport (New Zealand),Bahrain International Airport (Bahrain),12.3,01/12/2025,14:16,111,984,571
+LI05,Almaty International Airport (Kazakhstan),Silvio Pettirossi International Airport (Paraguay),14.2,01/05/2026,01:48,119,636,369
+LJ06,Nursultan Nazarbayev International Airport (Kazakhstan),Asunción Silvio Pettirossi International Airport (Paraguay),14.2,15/12/2026,22:36,1,636,369
+LK07,Aktau Airport (Kazakhstan),Carlos Antonio López International Airport (Paraguay),14.2,12/04/2026,06:02,252,636,369
+LL08,Shymkent Airport (Kazakhstan),Simón Bolívar International Airport (Venezuela),15.3,18/01/2026,00:24,142,724,420
+LM09,Atyrau Airport (Kazakhstan),Cumana Airport (Venezuela),15.3,04/12/2026,16:41,121,724,420
+LN10,Pavlodar Airport (Kazakhstan),La Chinita International Airport (Venezuela),15.3,10/02/2026,18:04,6,724,420
+LO11,Karaganda Sary-Arka Airport (Kazakhstan),Boryspil International Airport (Ukraine),8.6,31/12/2026,02:15,298,688,399
+LP12,Semey Airport (Kazakhstan),Lviv Danylo Halytskyi International Airport (Ukraine),8.6,09/03/2026,05:31,16,688,399
+LQ13,Uralsk Airport (Kazakhstan),Odesa International Airport (Ukraine),8.6,30/09/2026,07:35,198,688,399
+LR14,Taraz Airport (Kazakhstan),Donetsk International Airport (Ukraine),8.6,21/12/2026,21:06,294,688,399
+LS15,Kostanay Airport (Kazakhstan),Kharkiv International Airport (Ukraine),8.6,16/03/2026,00:22,287,688,399
+LT16,Zhezkazgan Airport (Kazakhstan),Simferopol International Airport (Ukraine),8.6,06/08/2026,13:13,254,688,399
+LU17,Petropavlovsk Airport (Kazakhstan),Zaporizhzhia International Airport (Ukraine),8.6,27/12/2025,23:13,229,688,399
+LV18,Oral Ak Zhol Airport (Kazakhstan),Dnipropetrovsk International Airport (Ukraine),8.6,10/11/2025,06:22,113,688,399
+LW19,Astana International Airport (Kazakhstan),Kyiv Zhuliany International Airport (Ukraine),8.6,30/05/2026,05:51,68,688,399
+LX20,Kazakhstan Pavlodar Airport (Kazakhstan),Kherson International Airport (Ukraine),8.6,06/05/2026,17:59,95,688,399
+LY21,Sochi International Airport (Russia),Mykolaiv International Airport (Ukraine),6.5,23/05/2026,02:52,272,520,302
+LZ22,Domodedovo International Airport (Russia),Lutsk International Airport (Ukraine),6.5,12/01/2026,13:54,35,520,302
+LA23,Sheremetyevo International Airport (Russia),Donetsk Vuhlehirsk Airport (Ukraine),6.5,15/05/2026,05:21,316,520,302
+LB24,Pulkovo Airport (Russia),Kharkiv Drobysheve International Airport (Ukraine),6.5,23/12/2026,19:04,332,520,302
+MC01,Vnukovo International Airport (Russia),Ivano-Frankivsk International Airport (Ukraine),6.5,27/01/2027,06:58,140,520,302
+MD02,Koltsovo Airport (Russia),Chernivtsi International Airport (Ukraine),6.5,14/01/2026,09:35,73,520,302
+ME03,Kazan International Airport (Russia),Zhytomyr International Airport (Ukraine),6.5,03/03/2026,16:33,40,520,302
+MF04,Volgograd International Airport (Russia),Vinnytsia International Airport (Ukraine),6.5,11/07/2026,17:40,202,520,302
+MG05,Yekaterinburg Koltsovo Airport (Russia),Poltava International Airport (Ukraine),6.5,07/06/2026,23:16,9,520,302
+MH06,Nizhny Novgorod Strigino Airport (Russia),Cherkasy International Airport (Ukraine),6.5,23/11/2025,21:14,66,520,302
+MI07,Samara Kurumoch International Airport (Russia),Ternopil International Airport (Ukraine),6.5,05/10/2026,12:32,331,520,302
+MJ08,Novosibirsk Tolmachevo Airport (Russia),Kropyvnytskyi International Airport (Ukraine),6.5,27/02/2026,02:07,42,520,302
+MK09,Irkutsk International Airport (Russia),Oman Seeb International Airport (Oman),4.5,03/04/2026,18:20,287,360,209
+ML10,Ufa International Airport (Russia),Muscat International Airport (Oman),4.5,04/11/2026,15:28,233,360,209
+MM11,Krasnoyarsk Yemelyanovo Airport (Russia),Salalah International Airport (Oman),4.5,12/01/2027,22:22,9,360,209
+MN12,Omsk Central Airport (Russia),Khasab Airport (Oman),4.5,20/12/2026,07:31,129,360,209
+MO13,Murmansk Airport (Russia),Dhofar International Airport (Oman),4.5,02/11/2025,02:07,243,360,209
+MP14,Makhachkala Uytash Airport (Russia),Nizwa International Airport (Oman),4.5,21/12/2025,23:51,235,360,209
+MQ15,Simferopol International Airport (Russia),Sohar Airport (Oman),4.5,14/01/2027,10:41,243,360,209
+MR16,Azerbaijan Heydar Aliyev International Airport (Azerbaijan),Bahla Airport (Oman),3,07/08/2026,17:18,284,240,139
+MS17,Baku Heydar Aliyev International Airport (Azerbaijan),Khawr Fakan Airport (Oman),3,08/01/2026,23:08,184,240,139
+MT18,Nakhchivan Airport (Azerbaijan),Sur International Airport (Oman),3,17/04/2026,16:18,293,240,139
+MU19,Ganja International Airport (Azerbaijan),Jebel Akhdar Airport (Oman),3,15/01/2027,08:19,97,240,139
+MV20,Lankaran International Airport (Azerbaijan),Ibra Airport (Oman),3,09/11/2026,21:24,255,240,139
+MW21,Mingachevir Airport (Azerbaijan),Zakho International Airport (Iraq),2.5,07/11/2025,03:22,238,200,116
+MX22,Shamakhi Airport (Azerbaijan),Baghdad International Airport (Iraq),2.5,22/09/2026,04:04,278,200,116
+MY23,Zaqatala Airport (Azerbaijan),Basra International Airport (Iraq),2.5,18/01/2026,09:44,130,200,116
+MZ24,Guba Airport (Azerbaijan),Najaf International Airport (Iraq),2.5,22/10/2026,12:18,205,200,116
+NA01,Baku International Airport (Azerbaijan),Erbil International Airport (Iraq),2.5,08/04/2026,08:21,131,200,116
+NB02,Rabat Mohammed V International Airport (Morocco),Sulaymaniyah International Airport (Iraq),5,07/04/2026,09:04,113,400,232
+NC03,Casablanca Mohammed V International Airport (Morocco),Mosul International Airport (Iraq),5,13/06/2026,10:38,283,400,232
+ND04,Marrakech Menara Airport (Morocco),Kirkuk International Airport (Iraq),5,23/01/2026,09:22,166,400,232
+NE05,Agadir Al Massira Airport (Morocco),Makhmur International Airport (Iraq),5,17/02/2026,21:04,333,400,232
+NF06,Tangier Ibn Battouta Airport (Morocco),Ramadi International Airport (Iraq),5,14/09/2026,18:13,72,400,232
+NG07,Fes-Saïs Airport (Morocco),Sulaimaniyah International Airport (Iraq),5,09/06/2026,10:42,146,400,232
+NH08,Oujda Angads Airport (Morocco),Duhok International Airport (Iraq),5,23/07/2026,06:49,146,400,232
+NI09,Nador Al Aroui Airport (Morocco),Sulaimaniyah Domestic Airport (Iraq),5,09/11/2026,17:25,135,400,232
+NJ10,Essaouira Mogador Airport (Morocco),Jinnah International Airport (Pakistan),4,17/03/2026,16:01,239,320,186
+NK11,Dakhla Airport (Morocco),Allama Iqbal International Airport (Pakistan),4,18/01/2026,10:30,6,320,186
+NL12,Laayoune Hassan I Airport (Morocco),Benazir Bhutto International Airport (Pakistan),4,04/03/2026,01:37,179,320,186
+NM13,Tanger Ibn Battouta Airport (Morocco),Faisalabad International Airport (Pakistan),4,21/11/2026,00:53,93,320,186
+NN14,Mohammed V International Airport (Morocco),Multan International Airport (Pakistan),4,29/11/2025,07:39,279,320,186
+NO15,Naples International Airport (Italy),Sialkot International Airport (Pakistan),5.5,11/02/2026,09:00,129,440,255
+NP16,Rome Leonardo da Vinci International Airport (Italy),Quetta International Airport (Pakistan),5.5,22/01/2026,16:11,184,440,255
+NQ17,Milan Malpensa Airport (Italy),Peshawar Bacha Khan International Airport (Pakistan),5.5,21/07/2026,20:33,334,440,255
+NR18,Venice Marco Polo Airport (Italy),Islamabad International Airport (Pakistan),5.5,16/12/2026,18:03,282,440,255
+NS19,Bologna Guglielmo Marconi Airport (Italy),Karachi Port Trust Airport (Pakistan),5.5,23/11/2026,03:47,202,440,255
+NT20,Catania Fontanarossa Airport (Italy),Skardu Airport (Pakistan),5.5,03/02/2026,09:16,108,440,255
+NU21,Palermo Falcone-Borsellino Airport (Italy),Chitral Airport (Pakistan),5.5,02/02/2026,09:36,348,440,255
+NV22,Florence Peretola Airport (Italy),Tribhuvan International Airport (Nepal),6,25/12/2026,00:23,152,480,278
+NW23,Verona Villafranca Airport (Italy),Pokhara Airport (Nepal),6,25/01/2027,06:51,188,480,278
+NX24,Pisa Galileo Galilei Airport (Italy),Lukla Tenzing-Hillary Airport (Nepal),6,28/08/2026,20:55,181,480,278
+OY01,Genoa Cristoforo Colombo Airport (Italy),Bhairahawa Gautam Buddha International Airport (Nepal),6,06/06/2026,11:52,206,480,278
+OZ02,Turin Caselle Airport (Italy),Bandaranaike International Airport (Sri Lanka),6.5,04/10/2026,19:47,69,520,302
+OA03,Bari Karol Wojtyła Airport (Italy),Mattala Rajapaksa International Airport (Sri Lanka),6.5,28/09/2026,19:19,186,520,302
+OB04,Ancona Falconara Airport (Italy),Colombo Ratmalana Airport (Sri Lanka),6.5,06/03/2026,06:17,105,520,302
+OC05,Lamezia Terme International Airport (Italy),Jaffna International Airport (Sri Lanka),6.5,25/12/2025,15:34,166,520,302
+OD06,Brindisi Salento Airport (Italy),Mehrabad International Airport (Iran),8,11/12/2026,00:25,88,640,371
+OE07,Hazrat Shahjalal International Airport (Bangladesh),Tehran Imam Khomeini International Airport (Iran),3,25/05/2026,05:56,264,240,139
+OF08,Shah Amanat International Airport (Bangladesh),Shiraz International Airport (Iran),3,08/10/2026,03:23,287,240,139
+OG09,Sylhet Osmani International Airport (Bangladesh),Isfahan International Airport (Iran),3,11/09/2026,15:20,295,240,139
+OH10,Jessore Airport (Bangladesh),Tabriz International Airport (Iran),3,27/01/2027,17:31,40,240,139
+OI11,Chittagong Patenga Airport (Bangladesh),Mashhad International Airport (Iran),3,25/11/2025,03:38,179,240,139
+OJ12,Rajshahi Airport (Bangladesh),Rasht International Airport (Iran),3,29/12/2026,01:06,169,240,139
+OK13,Barisal Airport (Bangladesh),Qeshm International Airport (Iran),3,29/08/2026,14:55,94,240,139
+OL14,Rangpur Airport (Bangladesh),Nairobi Jomo Kenyatta International Airport (Kenya),8.2,24/01/2026,18:39,101,656,380
+OM15,Khulna Airport (Bangladesh),Mombasa Moi International Airport (Kenya),8.2,02/04/2026,23:25,113,656,380
+ON16,Mymensingh Airport (Bangladesh),Kilimanjaro International Airport (Tanzania),10.2,22/11/2025,11:23,60,816,473
+OO17,Comilla Airport (Bangladesh),Zanzibar International Airport (Tanzania),10.2,05/08/2026,19:09,311,816,473
+OP18,Bangabandhu International Airport (Bangladesh),Entebbe International Airport (Uganda),10.6,06/12/2025,19:41,250,848,492
+OQ19,Dhaka International Airport (Bangladesh),Kampala International Airport (Uganda),10.6,17/08/2026,18:27,342,848,492
+OR20,Bangladesh Sylhet Osmani International Airport (Bangladesh),Jinja Airport (Uganda),10.6,02/07/2026,13:59,90,848,492
+OS21,Shamsherganj Airport (Bangladesh),Addis Ababa Bole International Airport (Ethiopia),11,21/10/2026,08:20,323,880,510
+OT22,Bangladesh Rajshahi Airport (Bangladesh),Mekele Airport (Ethiopia),11,10/10/2026,10:51,74,880,510
+OU23,Istanbul Airport (Turkey),Gonder Airport (Ethiopia),11,01/08/2026,20:40,337,880,510
+OV24,Ankara Esenboğa Airport (Turkey),Arba Minch Airport (Ethiopia),8,10/02/2026,16:57,325,640,371
+PW01,Sabiha Gökçen International Airport (Turkey),Accra Kotoka International Airport (Ghana),7,23/11/2026,04:43,264,560,325
+PX02,Antalya Airport (Turkey),Kumasi International Airport (Ghana),7,27/11/2026,05:23,84,560,325
+PY03,Adana Şakirpaşa Airport (Turkey),Takoradi Airport (Ghana),7,18/11/2026,08:35,287,560,325
+PZ04,Izmir Adnan Menderes Airport (Turkey),Felix-Houphouët-Boigny International Airport (Ivory Coast),6,23/07/2026,21:40,199,480,278
+PA05,Bursa Yenişehir Airport (Turkey),Bouaké Airport (Ivory Coast),6,05/12/2026,18:17,157,480,278
+PB06,Trabzon Airport (Turkey),Yamoussoukro Airport (Ivory Coast),6,19/01/2027,01:35,4,480,278
+PC07,Dalaman Airport (Turkey),Incheon International Airport (South Korea),6,22/01/2027,19:03,111,480,278
+PD08,Gaziantep Oğuzeli Airport (Turkey),Gimpo International Airport (South Korea),14,03/11/2026,06:54,321,620,360
+PE09,Kayseri Erkilet Airport (Turkey),Jeju International Airport (South Korea),14,30/01/2027,21:42,51,620,360
+PF10,Konya Airport (Turkey),Busan Gimhae International Airport (South Korea),14,13/05/2026,06:58,241,620,360
+PG11,Mardin Airport (Turkey),Daegu International Airport (South Korea),14,30/11/2026,17:14,310,620,360
+PH12,Eskişehir Anadolu University Airport (Turkey),Muan International Airport (South Korea),14,05/05/2026,00:52,195,620,360
+PI13,Samsun-Çarşamba Airport (Turkey),Ninoy Aquino International Airport (Philippines),15,22/12/2025,15:11,250,700,406
+PJ14,Muğla Milas-Bodrum Airport (Turkey),Mactan-Cebu International Airport (Philippines),15,07/09/2026,11:35,343,700,406
+PK15,Zonguldak Çaycuma Airport (Turkey),Davao International Airport (Philippines),15,15/09/2026,01:17,11,700,406
+PL16,Hatay Airport (Turkey),Kalibo International Airport (Philippines),15,10/12/2026,13:21,185,700,406
+PM17,King Abdulaziz International Airport (Saudi Arabia),Iloilo International Airport (Philippines),15,22/02/2026,15:59,54,700,406
+PN18,King Khalid International Airport (Saudi Arabia),Zamboanga International Airport (Philippines),15,24/10/2026,11:38,224,700,406
+PO19,King Fahd International Airport (Saudi Arabia),Yangon International Airport (Myanmar),16,28/12/2025,15:18,100,780,452
+PP20,Prince Mohammad bin Abdulaziz Airport (Saudi Arabia),Mandalay International Airport (Myanmar),13,25/01/2027,21:56,232,540,313
+PQ21,Abha Regional Airport (Saudi Arabia),Naypyidaw International Airport (Myanmar),13,11/01/2027,20:52,48,540,313
+PR22,Dammam King Fahd International Airport (Saudi Arabia),Heho Airport (Myanmar),13,09/05/2026,05:54,79,540,313
+PS23,Jeddah King Abdulaziz International Airport (Saudi Arabia),Lashio Airport (Myanmar),13,02/12/2025,19:08,284,540,313
+PT24,Medina Prince Mohammad bin Abdulaziz Airport (Saudi Arabia),Bagan Nyaung U Airport (Myanmar),13,16/05/2026,22:19,266,540,313
+QU01,Riyadh King Khalid International Airport (Saudi Arabia),Phnom Penh International Airport (Cambodia),5,24/12/2026,17:43,238,400,232
+QV02,Tabuk Regional Airport (Saudi Arabia),Siem Reap International Airport (Cambodia),5,16/12/2026,22:27,38,400,232
+QW03,Hail Regional Airport (Saudi Arabia),Sihanoukville International Airport (Cambodia),5,20/01/2027,09:42,168,400,232
+QX04,Qassim Regional Airport (Saudi Arabia),Battambang Airport (Cambodia),5,14/02/2026,00:27,247,400,232
+QY05,Najran Domestic Airport (Saudi Arabia),Kep Airport (Cambodia),5,26/02/2026,14:45,225,400,232
+QZ06,Jazan Domestic Airport (Saudi Arabia),Wattay International Airport (Laos),8,17/06/2026,12:13,51,640,371
+QA07,Al-Jouf Domestic Airport (Saudi Arabia),Luang Prabang International Airport (Laos),8,05/01/2026,00:51,72,640,371
+QB08,Buraidah Domestic Airport (Saudi Arabia),Pakse International Airport (Laos),8,11/11/2025,11:56,299,640,371
+QC09,Yanbu Airport (Saudi Arabia),Savannakhet Airport (Laos),8,21/06/2026,08:13,155,640,371
+QD10,Dubai International Airport (UAE),Xieng Khouang Airport (Laos),8,24/01/2026,18:20,109,640,371
+QE11,Abu Dhabi International Airport (UAE),Kuala Lumpur International Airport (Malaysia),9,18/12/2026,13:44,52,720,418
+QF12,Sharjah International Airport (UAE),Penang International Airport (Malaysia),9,17/12/2025,18:10,283,720,418
+QG13,Al Ain International Airport (UAE),Langkawi International Airport (Malaysia),9,24/12/2026,16:15,31,720,418
+QH14,Ras Al Khaimah International Airport (UAE),Kota Kinabalu International Airport (Malaysia),9,04/12/2025,14:06,132,720,418
+QI15,Fujairah International Airport (UAE),Senai International Airport (Malaysia),9,19/05/2026,07:05,205,720,418
+QJ16,Ajman International Airport (UAE),Sultan Abdul Aziz Shah Airport (Malaysia),9,19/07/2026,00:41,200,720,418
+QK17,Dubai World Central International Airport (UAE),Tan Son Nhat International Airport (Vietnam),10,21/04/2026,03:49,69,800,464
+QL18,Dubai Al Maktoum International Airport (UAE),Noi Bai International Airport (Vietnam),10,10/03/2026,18:28,13,800,464
+QM19,Abu Dhabi Al Bateen Executive Airport (UAE),Da Nang International Airport (Vietnam),10,09/04/2026,19:02,30,800,464
+QN20,Khalifa City Airport (UAE),Phu Quoc International Airport (Vietnam),10,18/07/2026,04:48,179,800,464
+QO21,Al-Dhaid Airport (UAE),Dushanbe International Airport (Tajikistan),2.6,28/01/2026,05:34,275,208,121
+QP22,Khor Fakkan Airport (UAE),Khujand International Airport (Tajikistan),2.6,08/03/2026,01:12,199,208,121
+QQ23,Al Fujairah International Airport (UAE),Khorog Airport (Tajikistan),2.6,22/11/2026,15:51,336,208,121
+QR24,Sharjah Al Mamzar Airport (UAE),Paro International Airport (Bhutan),5.5,17/08/2026,14:43,153,440,255
+RS01,Zayed City Airport (UAE),Chennai International Airport (India),4,26/08/2026,09:37,217,320,186
+RT02,Hamburg Airport (Germany),Goa International Airport (India),4,14/05/2026,12:00,332,320,186
+RU03,Frankfurt Airport (Germany),Shirdi Airport (India),4,26/09/2026,00:44,175,320,186
+RV04,Munich Airport (Germany),Rajiv Gandhi International Airport (India),4,04/05/2026,03:07,335,320,186
+RW05,Berlin Tegel Airport (Germany),Indira Gandhi International Airport (India),7,16/03/2026,19:10,259,560,325
+RX06,Cologne Bonn Airport (Germany),Kazakhstan International Airport (Kazakhstan),7.5,09/06/2026,21:33,12,600,348
+RY07,Düsseldorf Airport (Germany),Astana International Airport (Kazakhstan),7.4,20/09/2026,06:39,276,592,343
+RZ08,Stuttgart Airport (Germany),Qatar International Airport (Qatar),5.2,08/02/2026,00:05,17,416,241
+RA09,Hannover Airport (Germany),Doha Hamad International Airport (Qatar),5.2,07/04/2026,06:55,1,416,241
+RB10,Leipzig Halle Airport (Germany),King Khalid International Airport (Saudi Arabia),5.5,04/12/2025,08:55,307,440,255
+RC11,Nuremberg Airport (Germany),Jeddah King Abdulaziz International Airport (Saudi Arabia),5.6,15/02/2026,08:23,172,448,260
+RD12,Bremen Airport (Germany),Prince Mohammad bin Abdulaziz International Airport (Saudi Arabia),5.4,12/06/2026,08:28,53,432,251
+RE13,Hannover-Langenhagen Airport (Germany),Beirut Rafic Hariri International Airport (Lebanon),6.1,03/12/2025,19:06,122,488,283
+RF14,Köln Bonn Airport (Germany),Queen Alia International Airport (Jordan),5.9,18/04/2026,22:30,201,472,274
+RG15,Memmingen Airport (Germany),Muscat International Airport (Oman),5.9,07/10/2026,10:42,282,472,274
+RH16,Friedrichshafen Airport (Germany),Kuwait International Airport (Kuwait),5.4,11/11/2026,10:40,70,432,251
+RI17,Münster Osnabrück Airport (Germany),Bahrain International Airport (Bahrain),5.4,14/11/2025,18:32,40,432,251
+RJ18,Baghdad International Airport (Iraq),Silvio Pettirossi International Airport (Paraguay),15.2,04/10/2026,08:35,255,716,415
+RK19,Basra International Airport (Iraq),Asunción Silvio Pettirossi International Airport (Paraguay),15.3,06/02/2026,07:11,88,724,420
+RL20,Erbil International Airport (Iraq),Carlos Antonio López International Airport (Paraguay),15.2,18/03/2026,09:01,75,716,415
+RM21,Sulaymaniyah International Airport (Iraq),Simón Bolívar International Airport (Venezuela),16.1,16/06/2026,22:43,179,788,457
+RN22,Najaf International Airport (Iraq),Cumana Airport (Venezuela),16.1,18/11/2026,07:39,191,788,457
+RO23,Kirkuk Airport (Iraq),La Chinita International Airport (Venezuela),16,15/11/2026,11:10,217,780,452
+RP24,Mosul International Airport (Iraq),London Heathrow Airport (UK),9.2,13/12/2025,12:57,227,736,427
+SQ01,Diwaniya Airport (Iraq),London Gatwick Airport (UK),9.2,05/02/2026,21:43,99,736,427
+SR02,Karbala Airport (Iraq),London Stansted Airport (UK),9.2,07/01/2027,16:20,287,736,427
+SS03,Samawah Airport (Iraq),Manchester Airport (UK),9.1,21/01/2026,11:47,49,728,422
+ST04,Al-Qaim Airport (Iraq),Birmingham Airport (UK),9.1,03/11/2025,02:33,70,728,422
+SU05,Samarra Airport (Iraq),Glasgow Airport (UK),9.1,28/08/2026,15:44,46,728,422
+SV06,Al-Muthanna International Airport (Iraq),Edinburgh Airport (UK),9.1,19/08/2026,17:17,246,728,422
+SW07,Tuz Khurmatu Airport (Iraq),Bristol Airport (UK),9.1,24/12/2026,01:19,251,728,422
+SX08,Riyadh International Airport (Iraq),Liverpool John Lennon Airport (UK),9.1,05/11/2025,17:00,256,728,422
+SY09,Herat International Airport (Afghanistan),Newcastle International Airport (UK),8,22/12/2025,17:30,317,640,371
+SZ10,Kabul International Airport (Afghanistan),Leeds Bradford Airport (UK),8,02/04/2026,21:23,6,640,371
+SA11,Kandahar International Airport (Afghanistan),London Luton Airport (UK),8,09/02/2026,02:43,85,640,371
+SB12,Mazar-i-Sharif International Airport (Afghanistan),Cardiff Airport (UK),8,22/12/2026,17:35,145,640,371
+SC13,Jalalabad Airport (Afghanistan),London City Airport (UK),8,11/03/2026,09:15,155,640,371
+SD14,Bamyan Airport (Afghanistan),East Midlands Airport (UK),8,17/03/2026,05:38,22,640,371
+SE15,Khost Airport (Afghanistan),Southampton Airport (UK),8,23/11/2026,14:10,170,640,371
+SF16,Bagram Airfield (Afghanistan),Nottingham East Midlands Airport (UK),8,14/10/2026,08:01,53,640,371
+SG17,Shindand Airbase (Afghanistan),Aberdeen Airport (UK),8.2,08/01/2027,03:40,76,656,380
+SH18,Ghazni Airbase (Afghanistan),Dublin Airport (Ireland),8.5,13/10/2026,19:53,309,680,394
+SI19,Logar Provincial Airport (Afghanistan),Belfast International Airport (Northern Ireland),8.5,19/01/2027,14:29,224,680,394
+SJ20,Zaranj Airport (Afghanistan),Bournemouth Airport (UK),8.5,08/09/2026,15:26,297,680,394
+SK21,Kunar Airport (Afghanistan),Milan Malpensa Airport (Italy),7.5,05/01/2026,17:52,347,600,348
+SL22,Faizabad Airport (Afghanistan),Rome Fiumicino Airport (Italy),7.5,08/05/2026,20:04,259,600,348
+SM23,Singapore Changi Airport (Singapore),Munich Airport (Germany),12,08/05/2026,05:19,40,960,557
+SN24,Singapore Seletar Airport (Singapore),Frankfurt Airport (Germany),12,20/05/2026,06:35,176,960,557
+TO01,Singapore Paya Lebar Air Base (Singapore),Zurich Airport (Switzerland),11,28/01/2027,09:23,83,880,510
+TP02,Singapore Changi Air Base (Singapore),Brussels Airport (Belgium),10.5,20/07/2026,15:38,337,840,487
+TQ03,Singapore International Airport (Singapore),Amsterdam Schiphol Airport (Netherlands),10.7,10/04/2026,06:02,117,856,496
+TR04,Singapore Seletar International Airport (Singapore),Vienna International Airport (Austria),10.4,18/02/2026,10:13,221,832,483
+TS05,Changi Air Base East (Singapore),Copenhagen Airport (Denmark),10.4,26/11/2025,03:02,109,832,483
+TT06,Seletar Air Base (Singapore),Stockholm Arlanda Airport (Sweden),10.3,16/11/2025,10:42,322,824,478
+TU07,Sengkang Air Base (Singapore),Helsinki Airport (Finland),10.4,27/10/2026,17:19,256,832,483
+TV08,Paya Lebar Air Base (Singapore),Paris Charles de Gaulle Airport (France),10.8,21/08/2026,14:16,198,864,501
+TW09,Singapore Sentosa Air Base (Singapore),Geneva Airport (Switzerland),10.4,28/09/2026,06:50,166,832,483
+TX10,Singapore East Coast Air Base (Singapore),Antwerp Airport (Belgium),10.5,05/07/2026,20:14,78,840,487
+TY11,Cairo International Airport (Egypt),Oslo Gardermoen Airport (Norway),10.3,01/04/2026,12:44,151,824,478
+TZ12,Hurghada International Airport (Egypt),Warsaw Chopin Airport (Poland),6,31/07/2026,15:17,227,480,278
+TA13,Sharm El Sheikh International Airport (Egypt),Luxembourg Airport (Luxembourg),7,08/10/2026,19:21,187,560,325
+TB14,Luxor International Airport (Egypt),Belgrade Nikola Tesla Airport (Serbia),6,06/08/2026,18:03,231,480,278
+TC15,Alexandria Borg El Arab Airport (Egypt),Athens Eleftherios Venizelos Airport (Greece),7,26/07/2026,20:47,159,560,325
+TD16,Taba International Airport (Egypt),Helsinki-Vantaa Airport (Finland),8,28/02/2026,08:46,346,640,371
+TE17,Aswan International Airport (Egypt),Munich Franz Josef Strauss Airport (Germany),6,03/10/2026,00:44,162,480,278
+TF18,Marsa Alam International Airport (Egypt),Bucharest Henri Coanda International Airport (Romania),7,29/12/2026,09:44,290,560,325
+TG19,Port Said Airport (Egypt),Athens Eleftherios Venizelos Airport (Greece),6,13/12/2025,23:43,322,480,278
+TH20,Sohag International Airport (Egypt),Riga International Airport (Latvia),8,14/10/2026,01:28,100,640,371
+TI21,Marsa Matruh Airport (Egypt),Lisbon Humberto Delgado Airport (Portugal),6,20/12/2026,01:14,15,480,278
+TJ22,Edfu Airport (Egypt),Bucarest Henri Coanda International Airport (Romania),7,10/12/2026,10:19,125,560,325
+TK23,Saint Catherine International Airport (Egypt),Sofia Airport (Bulgaria),6,12/10/2026,14:08,208,480,278
+TL24,Nuweiba Airport (Egypt),Berlin Tegel Airport (Germany),7,23/01/2026,01:18,70,560,325
+UM01,Malaga Airport (Spain),Hartsfield-Jackson Atlanta International Airport (USA),11,16/09/2026,14:29,282,880,510
+UN02,Madrid Barajas Airport (Spain),Los Angeles International Airport (USA),11,02/01/2027,11:36,130,880,510
+UO03,Barcelona El Prat Airport (Spain),Chicago O'Hare International Airport (USA),11,30/11/2025,11:20,234,880,510
+UP04,Valencia Airport (Spain),Dallas/Fort Worth International Airport (USA),11,05/04/2026,13:46,243,880,510
+UQ05,Seville Airport (Spain),Denver International Airport (USA),11,19/12/2026,16:29,116,880,510
+UR06,Palma de Mallorca Airport (Spain),John F. Kennedy International Airport (USA),11,20/03/2026,22:21,328,880,510
+US07,Alicante Airport (Spain),San Francisco International Airport (USA),11,09/01/2026,21:40,80,880,510
+UT08,Gran Canaria Airport (Spain),Seattle-Tacoma International Airport (USA),11,16/12/2025,15:41,237,880,510
+UU09,Tenerife North Airport (Spain),Miami International Airport (USA),11,19/01/2027,11:17,127,880,510
+UV10,Tenerife South Airport (Spain),Orlando International Airport (USA),11,07/07/2026,23:32,316,880,510
+UW11,Ibiza Airport (Spain),Phoenix Sky Harbor International Airport (USA),11,25/10/2026,02:07,185,880,510
+UX12,Bilbao Airport (Spain),Minneapolis-Saint Paul International Airport (USA),11,05/02/2026,13:00,22,880,510
+UY13,Vigo-Peinador Airport (Spain),Detroit Metropolitan Wayne County Airport (USA),11,18/06/2026,10:32,302,880,510
+UZ14,Santiago de Compostela Airport (Spain),Boston Logan International Airport (USA),11,29/04/2026,04:36,238,880,510
+UA15,Reus Airport (Spain),Philadelphia International Airport (USA),11,12/05/2026,09:36,37,880,510
+UB16,Girona-Costa Brava Airport (Spain),Charlotte Douglas International Airport (USA),11,10/11/2025,13:58,245,880,510
+UC17,Porto Airport (Portugal),Washington Dulles International Airport (USA),13,22/06/2026,18:49,332,540,313
+UD18,Lisbon Humberto Delgado Airport (Portugal),Houston George Bush Intercontinental Airport (USA),13,13/07/2026,22:16,121,540,313
+UE19,Funchal Cristiano Ronaldo International Airport (Portugal),San Diego International Airport (USA),13,13/01/2027,07:14,177,540,313
+UF20,Braga Airport (Portugal),Chicago Midway International Airport (USA),13,09/12/2025,02:19,84,540,313
+UG21,Porto Francisco Sá Carneiro Airport (Portugal),Newark Liberty International Airport (USA),13,28/04/2026,14:42,18,540,313
+UH22,Ponta Delgada João Paulo II Airport (Portugal),Salt Lake City International Airport (USA),13,06/03/2026,05:36,200,540,313
+UI23,Coimbra Airport (Portugal),Tampa International Airport (USA),13,13/01/2027,16:50,118,540,313
+UJ24,Vila Real Airport (Portugal),Kansas City International Airport (USA),13,06/02/2026,22:59,230,540,313
+VK01,Faro Airport (Portugal),Portland International Airport (USA),13,02/04/2026,15:53,91,540,313
+VL02,Madeira Airport (Portugal),Sacramento International Airport (USA),13,18/06/2026,13:32,35,540,313
+VM03,Tavira Airport (Portugal),Cleveland Hopkins International Airport (USA),13,21/10/2026,21:21,304,540,313
+VN04,Albufeira Airport (Portugal),Raleigh-Durham International Airport (USA),13,14/04/2026,21:09,328,540,313
+VO05,Leiria Airport (Portugal),Baltimore/Washington International Thurgood Marshall Airport (USA),13,31/01/2027,17:21,36,540,313
+VP06,Shkoder Airport (Albania),St. Louis Lambert International Airport (USA),12,07/10/2026,02:43,307,960,557
+VQ07,Vlorë International Airport (Albania),Las Vegas McCarran International Airport (USA),12,11/03/2026,06:22,244,960,557
+VR08,Tirana International Airport (Albania),Cincinnati/Northern Kentucky International Airport (USA),12,24/04/2026,02:08,46,960,557
+VS09,Bashkia Airport (Albania),Austin-Bergstrom International Airport (USA),12,15/02/2026,08:15,195,960,557
+VT10,Epirus International Airport (Albania),Columbus John Glenn International Airport (USA),12,30/06/2026,09:31,321,960,557
+VU11,Fier Airport (Albania),Indianapolis International Airport (USA),12,22/03/2026,08:39,347,960,557
+VV12,Gjirokastër Airport (Albania),San Jose International Airport (USA),12,12/10/2026,02:10,36,960,557
+VW13,Durres Airport (Albania),Nashville International Airport (USA),12,29/12/2026,11:39,309,960,557
+VX14,Corfu International Airport (Greece),Louisville Muhammad Ali International Airport (USA),10.5,16/12/2025,23:15,292,840,487
+VY15,Vermosh Airport (Albania),London Heathrow Airport (UK),3.5,12/11/2025,03:55,178,280,162
+VZ16,Lëkurësi Airport (Albania),London Gatwick Airport (UK),3.5,02/08/2026,23:41,180,280,162
+VA17,Bajkaj Airport (Albania),London Stansted Airport (UK),3.5,03/02/2026,23:22,244,280,162
+VB18,Butrint Airport (Albania),Manchester Airport (UK),3.5,15/03/2026,12:55,98,280,162
+VC19,Maliq Airport (Albania),Birmingham Airport (UK),3.5,07/04/2026,21:13,322,280,162
+VD20,Cyprus Larnaca International Airport (Cyprus),Glasgow Airport (UK),5,29/01/2026,08:15,206,400,232
+VE21,Paphos International Airport (Cyprus),Edinburgh Airport (UK),5,13/10/2026,07:03,102,400,232
+VF22,Larnaca International Airport (Cyprus),Bristol Airport (UK),5,14/01/2026,15:45,320,400,232
+VG23,Limasol International Airport (Cyprus),Liverpool John Lennon Airport (UK),5,09/12/2026,08:38,156,400,232
+VH24,Ercan Airport (Cyprus),Newcastle International Airport (UK),5,08/10/2026,22:46,280,400,232
+WI01,Paphos International Airport (Cyprus),Leeds Bradford Airport (UK),5,19/07/2026,16:35,171,400,232
+WJ02,Lefkosa International Airport (Cyprus),London Luton Airport (UK),5,18/02/2026,11:02,107,400,232
+WK03,Famagusta International Airport (Cyprus),Cardiff Airport (UK),5,26/05/2026,11:14,261,400,232
+WL04,Kyrenia International Airport (Cyprus),London City Airport (UK),5,02/12/2026,02:57,127,400,232
+WM05,Ayia Napa International Airport (Cyprus),East Midlands Airport (UK),5,29/05/2026,00:59,160,400,232
+WN06,Kato Paphos International Airport (Cyprus),Southampton Airport (UK),5,01/09/2026,06:49,156,400,232
+WO07,Troodos Airport (Cyprus),Nottingham East Midlands Airport (UK),5,18/11/2026,22:46,315,400,232
+WP08,Larnaca International Cargo Terminal (Cyprus),Aberdeen Airport (UK),5,12/08/2026,13:43,228,400,232
+WQ09,Paphos Cargo Terminal (Cyprus),Dublin Airport (Ireland),5,12/12/2025,22:27,210,400,232
+WR10,Douala International Airport (Cameroon),Belfast International Airport (Northern Ireland),7.5,03/06/2026,18:18,166,600,348
+WS11,Yaoundé Nsimalen International Airport (Cameroon),Bournemouth Airport (UK),7.5,06/03/2026,14:30,172,600,348
+WT12,Garoua International Airport (Cameroon),Milan Malpensa Airport (Italy),6,16/12/2026,01:08,49,480,278
+WU13,Maroua Salak Airport (Cameroon),Rome Fiumicino Airport (Italy),6,06/04/2026,21:52,24,480,278
+WV14,Bafoussam Airport (Cameroon),Munich Airport (Germany),7,17/01/2026,00:30,339,560,325
+WW15,Bertoua Airport (Cameroon),Frankfurt Airport (Germany),7,02/07/2026,18:55,80,560,325
+WX16,Ebolowa Airport (Cameroon),Zurich Airport (Switzerland),5.8,19/12/2026,09:55,67,464,269
+WY17,Kribi Airport (Cameroon),Paris Charles de Gaulle Airport (France),5.8,16/12/2025,06:14,230,464,269
+WZ18,Djoum Airport (Cameroon),Paris Orly Airport (France),8,01/01/2026,07:15,67,640,371
+WA19,Nkongsamba Airport (Cameroon),Nice Côte d'Azur Airport (France),8,23/02/2026,07:47,72,640,371
+WB20,Buea Airport (Cameroon),Lyon–Saint-Exupéry Airport (France),8,21/12/2026,19:59,140,640,371
+WC21,Tiko Airport (Cameroon),Marseille Provence Airport (France),8,04/04/2026,11:46,100,640,371
+WD22,Limbe Airport (Cameroon),Toulouse-Blagnac Airport (France),8,15/09/2026,14:03,103,640,371
+WE23,Bamenda Airport (Cameroon),Bordeaux-Mérignac Airport (France),8,14/01/2026,23:40,96,640,371
+WF24,Sangmelima Airport (Cameroon),Nantes Atlantique Airport (France),8,07/12/2025,12:15,132,640,371
+XG01,Moungo Airport (Cameroon),Lille Airport (France),8,28/11/2026,10:21,115,640,371
+XH02,Yokadouma Airport (Cameroon),Brest Bretagne Airport (France),8,18/04/2026,02:47,143,640,371
+XI03,Betare Oya Airport (Cameroon),Strasbourg Airport (France),8,01/10/2026,11:05,267,640,371
+XJ04,Foumban-Koune Airport (Cameroon),Montpellier–Méditerranée Airport (France),8,06/03/2026,01:45,124,640,371
+XK05,Bafia Airport (Cameroon),Rennes–Saint-Jacques Airport (France),8,13/08/2026,00:50,170,640,371
+XL06,Akonolinga Airport (Cameroon),Aéroport de Beauvais-Tillé (France),8,13/12/2026,18:58,19,640,371
+XM07,Garoua International Airport (Cameroon),Saint-Étienne–Bouthéon Airport (France),8,03/11/2025,03:26,250,640,371
+XN08,Sime Airport (Cameroon),Ajaccio Napoléon Bonaparte Airport (France),8,20/02/2026,22:32,31,640,371
+XO09,Maroua Airport (Cameroon),Corse Sud–Figari Airport (France),8,09/12/2025,16:16,272,640,371
+XP10,Buea Domestic Airport (Cameroon),Perpignan–Rivesaltes Airport (France),8,14/08/2026,01:39,344,640,371
+XQ11,Tripoli International Airport (Liby,La Rochelle–Île de Ré Airport (France),7,01/10/2026,01:45,259,560,325
+XR12,Toronto Pearson International Airport (Canada),Limoges – Bellegarde Airport (France),14,14/10/2026,21:56,97,620,360
+XS13,Vancouver International Airport (Canada),Beijing Capital International Airport (China),22,31/05/2026,06:36,24,1260,731
+XT14,Montreal-Pierre Elliott Trudeau International Airport (Canada),Shanghai Pudong International Airport (China),22,03/11/2026,16:08,283,1260,731
+XU15,Calgary International Airport (Canada),Guangzhou Baiyun International Airport (China),22,02/07/2026,21:43,106,1260,731
+XV16,Edmonton International Airport (Canada),Shenzhen Bao'an International Airport (China),22,02/06/2026,18:52,83,1260,731
+XW17,Ottawa Macdonald-Cartier International Airport (Canada),Chengdu Shuangliu International Airport (China),22,06/04/2026,13:26,339,1260,731
+XX18,Winnipeg James Armstrong Richardson International Airport (Canada),Xi'an Xianyang International Airport (China),22,12/12/2026,04:17,7,1260,731
+XY19,Quebec City Jean Lesage International Airport (Canada),Hangzhou Xiaoshan International Airport (China),22,18/04/2026,03:14,174,1260,731
+XZ20,Halifax Stanfield International Airport (Canada),Kunming Changshui International Airport (China),22,28/12/2025,22:00,257,1260,731
+XA21,London International Airport (Canada),Nanjing Lukou International Airport (China),22,23/09/2026,07:48,269,1260,731
+XB22,Victoria International Airport (Canada),Heathrow Airport (UK),13,14/01/2026,06:24,194,540,313
+XC23,St. John's International Airport (Canada),Doncaster Sheffield Airport (UK),13,26/11/2025,10:21,250,540,313
