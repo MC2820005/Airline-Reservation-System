@@ -7,7 +7,7 @@ Will allow the user to login to their account, book flights and access the fligh
 - Viewing and managing (canceling) reservations.
 This project is being implemented using Java for the backend logic, JavaFX for the graphical user interface, and PostgreSQL for managing the database. I am utilizing JDBC to connect Java to PostgreSQL, enabling user authentication, flight bookings, and reservation management.
 
-Can now just double click run.bat in the file explorer to run my program!
+#Can now just double click run.bat in the file explorer to run my program!
 
 javac -cp ".;libraries\postgresql-42.7.8.jar" scripts/*.java  -  Compiles all files to allow access to PostgreSQL
 java -cp ".;libraries\postgresql-42.7.8.jar;scripts" Main   - executes the java file called "Main" which is under the scripts folder
