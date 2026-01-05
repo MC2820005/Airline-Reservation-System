@@ -39,7 +39,7 @@ public class LoginPage extends Application {
                 // add these entries into the database or find those entries in there
                 // move to the next screen
                 if(NewUserLogin(username,password)){
-                    InsertUser(username, password);
+                    InsertUser(username, password,messageLabel);
                     messageLabel.setText("Created New Account Successfully!");
                     // move to the next screen
                 }
@@ -84,13 +84,23 @@ public class LoginPage extends Application {
             // in the result and false otherwise
         }
         catch(Exception e){
+            e.printStackTrace();
             return false; // dont assume new user on error
         }
     }
 
-    public void InsertUser(String username, String password){
-        
+    public void InsertUser(String username, String password, Label messageLabel){
+        String sql = "INSERT INTO users_info (username,password) VALUES (?,?)"; // ? are placeholder values can take any value
+        try(Connection connection = DatabaseConnection.getDatabaseConnection();
+            PreparedStatement statement = connection.prepareStatement(sql);){
 
+            statement.setString(1, username);
+            statement.setString(2, password);
+            statement.executeUpdate();
+        }
+        catch(Exception e){
+            messageLabel.setText("Unable to create a new account");
+        }
     }
 
     public static void main(String[] args) {
