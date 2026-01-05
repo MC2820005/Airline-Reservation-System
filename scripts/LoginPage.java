@@ -9,6 +9,9 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.geometry.Pos;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 
 public class LoginPage extends Application {
@@ -32,9 +35,18 @@ public class LoginPage extends Application {
             String username = usernameField.getText();
             String password = passwordField.getText();
 
-            if(EnsureValidCredentials(username,password)){
+            if(EnsureValidCredentials(username,password,messageLabel)){
                 // add these entries into the database or find those entries in there
                 // move to the next screen
+                if(NewUserLogin(username,password)){
+                    InsertUser(username, password);
+                    messageLabel.setText("Created New Account Successfully!");
+                    // move to the next screen
+                }
+                else{
+                    messageLabel.setText("Logged in Successfully.");
+                    // move to the next screen
+                }
             }
         });
 
@@ -49,7 +61,7 @@ public class LoginPage extends Application {
         stage.show();
     }
 
-    public boolean EnsureValidCredentials(String username, String password){
+    public boolean EnsureValidCredentials(String username, String password,Label messageLabel){
             if(username.isEmpty() || password.isEmpty()){
                 messageLabel.setText("Please enter username and password");
                 return false;
@@ -58,6 +70,27 @@ public class LoginPage extends Application {
             }
             messageLabel.setText("Note both username and password length must be less than 20 characters");
             return false;
+    }
+
+    public boolean NewUserLogin(String username, String password){
+        String sql = "SELECT id FROM users_info WHERE username = ? AND password = ?"; // the ? can take any value
+        try(Connection connection = DatabaseConnection.getDatabaseConnection(); 
+            PreparedStatement statement =  connection.prepareStatement(sql);){
+
+            statement.setString(1,username);
+            statement.setString(2, password);
+            ResultSet result = statement.executeQuery();
+            return !(result.next()); // result.next() returns true if there is a row present
+            // in the result and false otherwise
+        }
+        catch(Exception e){
+            return false; // dont assume new user on error
+        }
+    }
+
+    public void InsertUser(String username, String password){
+        
+
     }
 
     public static void main(String[] args) {
