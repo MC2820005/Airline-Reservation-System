@@ -11,7 +11,8 @@ javac -cp ".;libraries\postgresql-42.7.8.jar" scripts/*.java  -  Compiles all fi
 java -cp ".;libraries\postgresql-42.7.8.jar;scripts" Main   - executes the java file called "Main" which is under the scripts folder
 
 javac --module-path C:\openjfx-21.0.9_windows-x64_bin-sdk\javafx-sdk-21.0.9\lib --add-modules javafx.controls scripts\LoginApp.java - these allow u to run the JavaFX UI for whatever script u want (Replace LoginApp)
-java --module-path C:\openjfx-21.0.9_windows-x64_bin-sdk\javafx-sdk-21.0.9\lib --add-modules javafx.controls LoginApp
+java --module-path "C:\openjfx-21.0.9_windows-x64_bin-sdk\javafx-sdk-21.0.9\lib" --add-modules javafx.controls -cp scripts LoginPage
+
 
 
 
