@@ -32,10 +32,9 @@ public class LoginPage extends Application {
             String username = usernameField.getText();
             String password = passwordField.getText();
 
-            if (username.isEmpty() || password.isEmpty()) {
-                messageLabel.setText("Please enter username and password");
-            } else {
-                messageLabel.setText("Login button clicked!");
+            if(EnsureValidCredentials(username,password)){
+                // add these entries into the database or find those entries in there
+                // move to the next screen
             }
         });
 
@@ -48,6 +47,17 @@ public class LoginPage extends Application {
         stage.setTitle("Login Page");
         stage.setScene(scene);
         stage.show();
+    }
+
+    public boolean EnsureValidCredentials(String username, String password){
+            if(username.isEmpty() || password.isEmpty()){
+                messageLabel.setText("Please enter username and password");
+                return false;
+            } else if(username.length() < 20 && password.length() < 20){
+                return true;
+            }
+            messageLabel.setText("Note username or password length must be less than 20 characters");
+            return false;
     }
 
     public static void main(String[] args) {
