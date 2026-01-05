@@ -56,7 +56,7 @@ public class LoginPage extends Application {
             } else if(username.length() < 20 && password.length() < 20){
                 return true;
             }
-            messageLabel.setText("Note username or password length must be less than 20 characters");
+            messageLabel.setText("Note both username and password length must be less than 20 characters");
             return false;
     }
 
