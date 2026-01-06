@@ -55,7 +55,7 @@ public class LoginPage extends Application {
         layout.getChildren().addAll(title,usernameField,passwordField,loginButton,messageLabel);
         VBox.setMargin(usernameField, new Insets(60, 0, 0, 0)); // ensures some distance between title and the other elements
         // Ensuring that we display the UI 
-        Scene scene = new Scene(layout,600,550);
+        Scene scene = new Scene(layout,800,750);
         stage.setTitle("Login Page");
         stage.setScene(scene);
         stage.show();

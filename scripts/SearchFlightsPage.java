@@ -2,16 +2,10 @@ import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.*;
 import javafx.stage.Stage;
-import javafx.geometry.Pos;
 
 
 public class SearchFlightsPage extends Application {
@@ -26,9 +20,9 @@ public class SearchFlightsPage extends Application {
         title.setAlignment(Pos.CENTER);
         Label origin_label = new Label("Origin:");
         TextField origin_field = new TextField();
-        Label destination_field = new Label("Destination:");
+        Label destination_label = new Label("Destination:");
         TextField destination_field = new TextField();
-        Label date_label = new Label("Departure Date:");
+        Label date_label = new Label("Earliest Departure Date:");
         DatePicker departure_date_picker = new DatePicker();
         
         VBox origin_box = new VBox(5, origin_label,origin_field);
@@ -94,7 +88,7 @@ public class SearchFlightsPage extends Application {
 
         TableColumn<Flight, Double> child_price_col =
                 new TableColumn<>("Child Price Ticket");
-        childPriceCol.setCellValueFactory(
+        child_price_col.setCellValueFactory(
                 new PropertyValueFactory<>("childPrice")
         );
 
@@ -111,6 +105,16 @@ public class SearchFlightsPage extends Application {
         );
 
         tableView.setPrefHeight(350);
+
+        VBox layout = new VBox(15);
+        layout.setPadding(new Insets(20));
+        layout.setAlignment(Pos.TOP_CENTER);
+        layout.getChildren().addAll(title,filters_row,search_button,tableView);
+
+        Scene scene = new Scene(layout, 800, 750);
+        stage.setTitle("Search Flights");
+        stage.setScene(scene);
+        stage.show();
     }
 
      public static void main(String[] args) {
