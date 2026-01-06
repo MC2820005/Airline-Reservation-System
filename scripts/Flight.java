@@ -23,4 +23,14 @@ public class Flight {
         this.child_price = child_price;
     }
 
+    // Getter Methods
+    public String getFlightNumber() {return flight_number;}
+    public String getOrigin() {return origin;}
+    public String getDestination() {return destination;}
+    public double getLengthOfFlight() {return lof;}
+    public String getDepartureDate() {return departure_date;}
+    public String getDepartureTime() {return departure_time;}
+    public int getSeatsAvailable() {return seats_available;}
+    public double getAdultPrice() {return adult_price;}
+    public double getChildPrice() {return child_price;}
 }
