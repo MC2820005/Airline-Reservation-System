@@ -29,12 +29,18 @@ public class SearchFlightsPage extends Application {
         TextField destination_field = new TextField();
         Label date_label = new Label("Earliest Departure Date:");
         DatePicker departure_date_picker = new DatePicker();
-        
-        VBox origin_box = new VBox(5, origin_label,origin_field);
-        VBox destination_box = new VBox(5, destination_label, destination_field);
-        VBox date_box = new VBox(5, date_label,departure_date_picker);
+        Label book_label = new Label("Enter Flight Number to Book:");
+        TextField flight_number_field = new TextField();
+        Button book_button = new Button("Book Flight"); // for booking a particular flight
 
-        HBox filters_row = new HBox(20, origin_box, destination_box, date_box);
+        VBox booking_box = new VBox(5.0, book_label, flight_number_field, book_button);
+        booking_box.setAlignment(Pos.CENTER);
+        booking_box.setPadding(new Insets(10)); 
+        VBox origin_box = new VBox(5.0, origin_label,origin_field);
+        VBox destination_box = new VBox(5.0, destination_label, destination_field);
+        VBox date_box = new VBox(5.0, date_label,departure_date_picker);
+
+        HBox filters_row = new HBox(20.0, origin_box, destination_box, date_box);
         filters_row.setAlignment(Pos.CENTER);
 
         TableView<Flight> tableView = new TableView<>(); // will be used to display the flights
@@ -90,8 +96,6 @@ public class SearchFlightsPage extends Application {
 
                                 tableView.getItems().add(flight); // Add each flight to table for user to view
                         }
-
-                        
 
                 }catch(Exception ex){
                         ex.printStackTrace();
@@ -182,10 +186,10 @@ public class SearchFlightsPage extends Application {
 
         tableView.setPrefHeight(350);
 
-        VBox layout = new VBox(15);
+        VBox layout = new VBox(15.0);
         layout.setPadding(new Insets(20));
         layout.setAlignment(Pos.TOP_CENTER);
-        layout.getChildren().addAll(title,filters_row,search_button,tableView);
+        layout.getChildren().addAll(title,filters_row,search_button,tableView,booking_box);
 
         HBox top_bar = new HBox(reservations_button);
         top_bar.setAlignment(Pos.TOP_RIGHT);
