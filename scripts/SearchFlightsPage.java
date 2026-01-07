@@ -2,7 +2,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.time.LocalDate;
 
-import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -14,6 +13,12 @@ import java.sql.ResultSet;
 
 
 public class SearchFlightsPage{
+
+        private final int user_id;
+
+        public SearchFlightsPage(int user_id){ // so can use the user_id when dealing with flight bookings
+                this.user_id = user_id;
+        }
  
     public Scene getSearchFlightsPage(Stage stage){
         // Setting up the UI
@@ -104,29 +109,32 @@ public class SearchFlightsPage{
 
         Button reservations_button = new Button("My Bookings");
 
-        //Logic for changing to the other page (My Bookings Page)
+        //Logic for changing to the other page (My Bookings Page) 
 
         reservations_button.setOnAction(e -> {
-                String flight_num = flight_number_field.getText().trim();
 
-                String sql = "UPDATE users_info SET flightnum = ? WHERE flightid = ?";
-                try(Connection connection = DatabaseConnection.getDatabaseConnection();
-                    PreparedStatement statement = connection.prepareStatement(sql);){
-                        statement.setString(1, flight_num);
-                        statement.setString(2,""); //NEED TO CHANGE THISSSS LINE
 
-                        // NEED TO FINISH THIS METHOD
-                }catch(Exception ex){
-                        ex.printStackTrace();
-                        // failed to connect to date or sql failure
-                }
+
+        
         });
 
-        // Logic for clicking on the booking button (To book a flight)
+        // Logic for clicking on the booking button (To book a flight) (Updating the Reservations Database)
 
         book_button.setOnAction(e -> {
+                String flight_num = flight_number_field.getText().trim();
 
+                String sql = "INSERT INTO reservations (user_id, flight_number) VALUES (?, ?)";
+                try (Connection connection = DatabaseConnection.getDatabaseConnection();
+                        PreparedStatement statement = connection.prepareStatement(sql)) {
 
+                        statement.setInt(1, user_id);
+                        statement.setString(2, flight_num);
+                        statement.executeUpdate();
+
+                } catch (Exception ex) {
+                        ex.printStackTrace();
+                        // database or sql error
+                }
         });
 
 
@@ -222,9 +230,5 @@ public class SearchFlightsPage{
         stage.setTitle("Search Flights");
 
         return scene;
-    }
-
-     public static void main(String[] args) {
-        launch(args);
     }
 }

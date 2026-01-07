@@ -15,7 +15,6 @@ import java.sql.ResultSet;
 
 
 public class LoginPage{
-    boolean next_page =false;
 
     public Scene getLoginPageScene(Stage stage){
         // Setting up the UI
@@ -37,19 +36,19 @@ public class LoginPage{
 
             if(EnsureValidCredentials(username,password,messageLabel)){
                 // add these entries into the database or find those entries in there
-                // move to the next screen
+                Integer user_id = getUserId(username, password);
                 if(NewUserLogin(username,password)){
                     InsertUser(username, password,messageLabel);
+                    user_id = getUserId(username, password);
                     messageLabel.setText("Created New Account Successfully!");
-                    // move to the next screen
-                    
-
                 }
                 else{
                     messageLabel.setText("Logged in Successfully.");
-                    // move to the next screen
                 }
-                next_page = true;
+                // Move to the next screen once user has logged in
+
+                SearchFlightsPage flights_page = new SearchFlightsPage(user_id);
+                stage.setScene(flights_page.getSearchFlightsPage(stage));
             }
         });
 
@@ -61,10 +60,6 @@ public class LoginPage{
         Scene scene = new Scene(layout,1000,750);
         stage.setTitle("Login Page");
         return scene;
-    }
-
-    public boolean MoveToNextPage(){
-        return next_page;
     }
 
     public boolean EnsureValidCredentials(String username, String password,Label messageLabel){
@@ -108,4 +103,24 @@ public class LoginPage{
             messageLabel.setText("Unable to create a new account");
         }
     }
+
+    public Integer getUserId(String username, String password) { // so we can pass it between pages and use it when booking 
+    String sql = "SELECT id FROM users_info WHERE username = ? AND password = ?"; // flights
+
+    try (Connection connection = DatabaseConnection.getDatabaseConnection();
+         PreparedStatement statement = connection.prepareStatement(sql)) {
+
+        statement.setString(1, username);
+        statement.setString(2, password);
+
+        ResultSet result = statement.executeQuery();
+
+        if (result.next()) {
+            return result.getInt("id");
+        }
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+    return null;
+}
 }
