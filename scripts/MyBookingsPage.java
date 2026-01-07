@@ -42,8 +42,8 @@ public class MyBookingsPage {
                 String flightNum = results.getString("flight_number");
                 String bookingDate = results.getString("booking_date");
 
-                Label bookingLabel = new Label(flightNum + " | Booked on: " + bookingDate);
-                bookingLabel.setStyle("-fx-text-fill: blue; -fx-underline: true;"); // clickable style
+                Label bookingLabel = new Label("Flight Number: " + flightNum + " | Booked on: " + bookingDate);
+                bookingLabel.setStyle("-fx-text-fill: blue; -fx-underline: true; -fx-font-size: 16px;"); // clickable style
 
                 // When the label is clicked then we display the flight details for the user to view
                 bookingLabel.setOnMouseClicked(e -> showFlightDetails(flightNum)); // need flightnumber to query and get 
