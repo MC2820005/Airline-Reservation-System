@@ -14,10 +14,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 
-public class LoginPage extends Application {
+public class LoginPage{
+    boolean next_page =false;
 
-    @Override
-    public void start(Stage stage){
+    public Scene getLoginPageScene(Stage stage){
         // Setting up the UI
         Label title = new Label("Airline Reservation System");
         title.setStyle("-fx-font-weight: bold; -fx-font-size: 20px; -fx-text-fill: black;");
@@ -42,11 +42,14 @@ public class LoginPage extends Application {
                     InsertUser(username, password,messageLabel);
                     messageLabel.setText("Created New Account Successfully!");
                     // move to the next screen
+                    
+
                 }
                 else{
                     messageLabel.setText("Logged in Successfully.");
                     // move to the next screen
                 }
+                next_page = true;
             }
         });
 
@@ -57,8 +60,11 @@ public class LoginPage extends Application {
         // Ensuring that we display the UI 
         Scene scene = new Scene(layout,1000,750);
         stage.setTitle("Login Page");
-        stage.setScene(scene);
-        stage.show();
+        return scene;
+    }
+
+    public boolean MoveToNextPage(){
+        return next_page;
     }
 
     public boolean EnsureValidCredentials(String username, String password,Label messageLabel){
@@ -101,9 +107,5 @@ public class LoginPage extends Application {
         catch(Exception e){
             messageLabel.setText("Unable to create a new account");
         }
-    }
-
-    public static void main(String[] args) {
-        launch(args);
     }
 }

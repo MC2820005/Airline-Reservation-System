@@ -13,10 +13,9 @@ import javafx.stage.Stage;
 import java.sql.ResultSet;
 
 
-public class SearchFlightsPage extends Application {
-
-    @Override 
-    public void start(Stage stage){
+public class SearchFlightsPage{
+ 
+    public Scene getSearchFlightsPage(Stage stage){
         // Setting up the UI
     
         Label title = new Label("Search Available Flights:");
@@ -108,9 +107,28 @@ public class SearchFlightsPage extends Application {
         //Logic for changing to the other page (My Bookings Page)
 
         reservations_button.setOnAction(e -> {
+                String flight_num = flight_number_field.getText().trim();
+
+                String sql = "UPDATE users_info SET flightnum = ? WHERE flightid = ?";
+                try(Connection connection = DatabaseConnection.getDatabaseConnection();
+                    PreparedStatement statement = connection.prepareStatement(sql);){
+                        statement.setString(1, flight_num);
+                        statement.setString(2,""); //NEED TO CHANGE THISSSS LINE
+
+                        // NEED TO FINISH THIS METHOD
+                }catch(Exception ex){
+                        ex.printStackTrace();
+                        // failed to connect to date or sql failure
+                }
+        });
+
+        // Logic for clicking on the booking button (To book a flight)
+
+        book_button.setOnAction(e -> {
 
 
         });
+
 
 
         // For the search slider when scrolling through flights
@@ -202,8 +220,8 @@ public class SearchFlightsPage extends Application {
 
         Scene scene = new Scene(root, 1000, 750);
         stage.setTitle("Search Flights");
-        stage.setScene(scene);
-        stage.show();
+
+        return scene;
     }
 
      public static void main(String[] args) {
