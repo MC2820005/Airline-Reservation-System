@@ -1,3 +1,7 @@
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.time.LocalDate;
+
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -6,6 +10,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
+import java.sql.ResultSet;
 
 
 public class SearchFlightsPage extends Application {
@@ -32,11 +37,79 @@ public class SearchFlightsPage extends Application {
         HBox filters_row = new HBox(20, origin_box, destination_box, date_box);
         filters_row.setAlignment(Pos.CENTER);
 
+        TableView<Flight> tableView = new TableView<>(); // will be used to display the flights
+
         Button search_button = new Button("Search Flights");
 
-        // For the search slider when scrolling through flights
+        // Logic for when we want to connect to database to retieve query results (Flights)
 
-        TableView<Flight> tableView = new TableView<>();
+        search_button.setOnAction(e -> {
+                // getting rid of trailing empty spaces
+                String origin = origin_field.getText().trim();
+                String destination = destination_field.getText().trim();
+                LocalDate selected_date = departure_date_picker.getValue();
+
+                String sql = "SELECT * FROM flights_info WHERE (? = '' OR origin ILIKE '%' || ? || '%') "
+                + "AND (? = '' OR destination ILIKE '%' || ? || '%') "
+                + (selected_date != null ? "AND departuredate >= ? " : "") + "ORDER BY departuredate, departuretime";
+                // Our sql logic for displaying flights,ILIKE is used so user does not need to type the whole name 
+                // of the airport in the origin or destination fields
+                try(Connection connection = DatabaseConnection.getDatabaseConnection(); 
+                    PreparedStatement statement = connection.prepareStatement(sql);){
+
+                        // Filling in the placeholders
+                        statement.setString(1, origin);
+                        statement.setString(2, origin);
+                        statement.setString(3, destination);
+                        statement.setString(4, destination);
+                        if(selected_date == null){
+                                statement.setNull(5, java.sql.Types.DATE);
+                        }
+                        else{
+                                statement.setDate(5, java.sql.Date.valueOf(selected_date));
+                        }
+
+                        ResultSet results = statement.executeQuery();
+
+                        tableView.getItems().clear(); // deletes previous results
+                        
+                        Flight flight = null;
+
+                        while(results.next()){ // iterates through the results of the query
+                                flight = new Flight(
+                                results.getString("flightnum"),
+                                results.getString("origin"),
+                                results.getString("destination"),
+                                results.getDouble("lof"),
+                                results.getString("departuredate"),
+                                results.getString("departuretime"),
+                                results.getInt("availableseats"),
+                                results.getInt("adultpriceticket"),
+                                results.getInt("childpriceticket")
+                                );
+
+                                tableView.getItems().add(flight); // Add each flight to table for user to view
+                        }
+
+                        
+
+                }catch(Exception ex){
+                        ex.printStackTrace();
+                        // Unable to make connection to database
+                }
+        });
+
+        Button reservations_button = new Button("My Bookings");
+
+        //Logic for changing to the other page (My Bookings Page)
+
+        reservations_button.setOnAction(e -> {
+
+
+        });
+
+
+        // For the search slider when scrolling through flights
 
         TableColumn<Flight, String> flight_num_col =
                 new TableColumn<>("Flight Number");
@@ -104,6 +177,9 @@ public class SearchFlightsPage extends Application {
                 child_price_col
         );
 
+        tableView.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY_FLEX_LAST_COLUMN); // makes sure all column 
+        // names are shown (resized to fit in the space that they are allocated when displaying flights)
+
         tableView.setPrefHeight(350);
 
         VBox layout = new VBox(15);
@@ -111,7 +187,16 @@ public class SearchFlightsPage extends Application {
         layout.setAlignment(Pos.TOP_CENTER);
         layout.getChildren().addAll(title,filters_row,search_button,tableView);
 
-        Scene scene = new Scene(layout, 800, 750);
+        HBox top_bar = new HBox(reservations_button);
+        top_bar.setAlignment(Pos.TOP_RIGHT);
+        top_bar.setPadding(new Insets(10));
+
+
+        BorderPane root = new BorderPane(); // use this for our "My Bookings" Button as it is top right of our screen
+        root.setTop(top_bar);
+        root.setCenter(layout);
+
+        Scene scene = new Scene(root, 1000, 750);
         stage.setTitle("Search Flights");
         stage.setScene(scene);
         stage.show();
