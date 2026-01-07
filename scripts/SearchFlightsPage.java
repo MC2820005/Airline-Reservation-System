@@ -112,10 +112,8 @@ public class SearchFlightsPage{
         //Logic for changing to the other page (My Bookings Page) 
 
         reservations_button.setOnAction(e -> {
-
-
-
-        
+                MyBookingsPage bookings_page = new MyBookingsPage(user_id);
+                stage.setScene(bookings_page.getMyBookingsPage(stage));
         });
 
         // Logic for clicking on the booking button (To book a flight) (Updating the Reservations Database)
