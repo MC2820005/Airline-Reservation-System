@@ -4,7 +4,7 @@ Will allow the user to login to their account, book flights and access the fligh
 (Desktop Based) The system includes features such as:
 - Flight tracking based on arrival and departure times.
 - Browsing available flights via their respective departure dates and destinations.
-- Viewing and managing (canceling) reservations.
+- Booking and Viewing reservations.
 This project is being implemented using Java for the backend logic, JavaFX for the graphical user interface, and PostgreSQL for managing the database. I am utilizing JDBC to connect Java to PostgreSQL, enabling user authentication, flight bookings, and reservation management.
 
 # Can now just double click run.bat in the file explorer to run a certain java file
