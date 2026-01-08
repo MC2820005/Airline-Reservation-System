@@ -119,20 +119,49 @@ public class SearchFlightsPage{
         // Logic for clicking on the booking button (To book a flight) (Updating the Reservations Database)
 
         book_button.setOnAction(e -> {
-                String flight_num = flight_number_field.getText().trim();
 
-                String sql = "INSERT INTO reservations (user_id, flight_number) VALUES (?, ?)";
-                try (Connection connection = DatabaseConnection.getDatabaseConnection();
-                        PreparedStatement statement = connection.prepareStatement(sql)) {
+                Dialog<ButtonType> dialog = new Dialog<>(); // for user to select num. of child/adult tickets
+                dialog.setTitle("Select Tickets");
 
-                        statement.setInt(1, user_id);
-                        statement.setString(2, flight_num);
-                        statement.executeUpdate();
+                Spinner<Integer> adult_spinner = new Spinner<>(0, 10, 1);// must be at least 1 adult
+                Spinner<Integer> child_spinner = new Spinner<>(0, 10, 0);
+                adult_spinner.setEditable(false);
+                child_spinner.setEditable(false);
 
-                } catch (Exception ex) {
-                        ex.printStackTrace();
-                        // database or sql error
-                }
+                GridPane grid = new GridPane(); // Popup UI to be displayed
+                grid.setHgap(10);
+                grid.setVgap(10);
+                grid.add(new Label("Adult tickets:"), 0, 0);
+                grid.add(adult_spinner, 1, 0);
+                grid.add(new Label("Child tickets:"), 0, 1);
+                grid.add(child_spinner, 1, 1);
+                dialog.getDialogPane().setContent(grid);
+                dialog.getDialogPane().getButtonTypes().addAll(ButtonType.OK, ButtonType.CANCEL); // Can cancel or confirm
+
+                dialog.showAndWait().ifPresent(result -> {
+                if (result == ButtonType.OK) {
+                       int adult_tickets = adult_spinner.getValue(); // get values from spinners
+                       int child_tickets = child_spinner.getValue();
+
+                        String flight_num = flight_number_field.getText().trim();
+
+                        String sql = "INSERT INTO reservations (user_id, flight_number,adult_tickets,"
+                        + "child_tickets) VALUES (?, ?, ? ,?)";
+                        try (Connection connection = DatabaseConnection.getDatabaseConnection();
+                                PreparedStatement statement = connection.prepareStatement(sql)) {
+
+                                statement.setInt(1, user_id);
+                                statement.setString(2, flight_num);
+                                statement.setInt(3, adult_tickets);
+                                statement.setInt(4, child_tickets);
+                                statement.executeUpdate();
+
+                        } catch (Exception ex) {
+                                ex.printStackTrace();
+                                // database or sql error
+                        }
+                        }
+                }); 
         });
 
 

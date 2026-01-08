@@ -39,26 +39,29 @@ public class MyBookingsPage {
         });
 
         // Query the database for this user's bookings
-        String sql = "SELECT flight_number, booking_date FROM reservations WHERE user_id = ? ORDER BY booking_date ASC";
+        String sql = "SELECT flight_number, booking_date, adult_tickets, child_tickets FROM reservations"
+        + " WHERE user_id = ? ORDER BY booking_date ASC";
 
         try (Connection connection = DatabaseConnection.getDatabaseConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
 
-            statement.setInt(1, user_id);
+            statement.setInt(1, user_id); // for this particular user
             ResultSet results = statement.executeQuery();
 
             boolean hasBookings = false;
             while (results.next()) {
                 hasBookings = true;
-                String flightNum = results.getString("flight_number");
-                String bookingDate = results.getString("booking_date");
+                String flight_num = results.getString("flight_number");
+                String booking_date = results.getString("booking_date");
+                int adult_tickets = results.getInt("adult_tickets");
+                int child_tickets = results.getInt("child_tickets");
 
-                Label bookingLabel = new Label("Flight Number: " + flightNum + " | Booked on: " + bookingDate);
+                Label bookingLabel = new Label("Flight Number: " + flight_num + " | Booked on: " + booking_date);
                 bookingLabel.setStyle("-fx-text-fill: blue; -fx-underline: true; -fx-font-size: 16px;"); // clickable style
 
                 // When the label is clicked then we display the flight details for the user to view
-                bookingLabel.setOnMouseClicked(e -> showFlightDetails(flightNum)); // need flightnumber to query and get 
-                // the flight information
+                bookingLabel.setOnMouseClicked(e -> showFlightDetails(flight_num, adult_tickets, child_tickets)); 
+                // need flightnumber to query and get the flight information
 
                 bookingsBox.getChildren().add(bookingLabel); // UI Setup
             }
@@ -88,7 +91,7 @@ public class MyBookingsPage {
         return new Scene(root, 1000, 750);
     }
 
-    private void showFlightDetails(String flightNum) {
+    private void showFlightDetails(String flightNum, int adult_tickets, int child_tickets) {
         String sql = "SELECT * FROM flights_info WHERE flightnum = ?";
         try (Connection connection = DatabaseConnection.getDatabaseConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
@@ -104,9 +107,12 @@ public class MyBookingsPage {
                         "Departure Date: " + result.getString("departuredate") + "\n" +
                         "Departure Time: " + result.getString("departuretime") + "\n" +
                         "Seats Available: " + result.getInt("availableseats") + "\n" +
-                        "Adult Price: " + result.getInt("adultpriceticket") + "\n" +
-                        "Child Price: " + result.getInt("childpriceticket");
-
+                        "Adult Price: £" + result.getInt("adultpriceticket") + "\n" +
+                        "Child Price: £" + result.getInt("childpriceticket")+ "\n" +
+                        "My Total Cost is: £" + (adult_tickets * result.getInt("adultpriceticket")
+                        + (child_tickets * result.getInt("childpriceticket")) + "\n" +
+                        "For " + child_tickets + " children and " + adult_tickets + " adults");
+                
                 Alert alert = new Alert(Alert.AlertType.INFORMATION); // will display this popup of flight information
                 alert.setTitle("Flight Details");
                 alert.setHeaderText("Details for flight " + flightNum);
