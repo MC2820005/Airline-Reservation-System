@@ -2,6 +2,8 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import java.sql.Connection;
@@ -22,10 +24,19 @@ public class MyBookingsPage {
         title.setStyle("-fx-font-weight: bold; -fx-font-size: 20px; -fx-text-fill: black;");
         title.setMaxWidth(Double.MAX_VALUE);      
         title.setAlignment(Pos.CENTER);
+        Button back_button = new Button("Back");
+        BorderPane root = new BorderPane();
 
         VBox bookingsBox = new VBox(10);
         bookingsBox.setPadding(new Insets(20));
-        bookingsBox.setAlignment(Pos.TOP_CENTER);
+        bookingsBox.setAlignment(Pos.TOP_CENTER); // putting it under the tableView
+        // so user can read the flightnum and then type it in to book a flight
+
+        // Logic for switching back to the SearchFlightsPage upon clicking the back button
+        back_button.setOnAction(e -> {
+            SearchFlightsPage flights_page = new SearchFlightsPage(user_id);
+            stage.setScene(flights_page.getSearchFlightsPage(stage));
+        });
 
         // Query the database for this user's bookings
         String sql = "SELECT flight_number, booking_date FROM reservations WHERE user_id = ? ORDER BY booking_date ASC";
@@ -61,11 +72,20 @@ public class MyBookingsPage {
             bookingsBox.getChildren().add(new Label("Failed to load bookings."));
         }
 
+        HBox top_bar = new HBox(back_button); // For our back button
+        top_bar.setPadding(new Insets(10));
+        top_bar.setAlignment(Pos.TOP_LEFT);
+        
+
+
         VBox layout = new VBox(15, title, bookingsBox);
         layout.setPadding(new Insets(20));
         layout.setAlignment(Pos.TOP_CENTER);
 
-        return new Scene(layout, 1000, 750);
+        root.setTop(top_bar); // for the back button 
+        root.setCenter(layout);
+
+        return new Scene(root, 1000, 750);
     }
 
     private void showFlightDetails(String flightNum) {
