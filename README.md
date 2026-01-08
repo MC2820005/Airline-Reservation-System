@@ -1,20 +1,19 @@
 # Airline-Reservation-System
-Will allow the user to login to their account, book flights and access the flight information.
+- This is a desktop-based Airline Reservation System that allows users to:
+- Log in or create an account
+- Browse and search available flights
+- Filter flights by origin, destination, and departure date
+- Book flights with adult and child ticket selection
+- View all personal reservations
+- Click bookings to view full flight details
+The application is built using Java, JavaFX, and PostgreSQL, with JDBC handling database connectivity and VSCode as my IDE.
 
-(Desktop Based) The system includes features such as:
-- Flight tracking based on arrival and departure times.
-- Browsing available flights via their respective departure dates and destinations.
-- Booking and Viewing reservations.
-This project is being implemented using Java for the backend logic, JavaFX for the graphical user interface, and PostgreSQL for managing the database. I am utilizing JDBC to connect Java to PostgreSQL, enabling user authentication, flight bookings, and reservation management.
+How to run the program:
+- Ensure PostgreSQL is running and the database is set up using schema.sql
+- Ensure Java (JDK 17+) is installed
+- Ensure JavaFX SDK is installed locally
+- Double-click run.bat and the application will compile and launch automatically starting from Main.java
 
-# Can now just double click run.bat in the file explorer to run a certain java file
-
-javac -cp ".;libraries\postgresql-42.7.8.jar" scripts/*.java  -  Compiles all files to allow access to PostgreSQL
-java -cp ".;libraries\postgresql-42.7.8.jar;scripts" Main   - executes the java file called "Main" which is under the scripts folder
-
-javac --module-path C:\openjfx-21.0.9_windows-x64_bin-sdk\javafx-sdk-21.0.9\lib --add-modules javafx.controls scripts\LoginApp.java - these allow u to run the JavaFX UI for whatever script u want (Replace LoginApp)
-java --module-path "C:\openjfx-21.0.9_windows-x64_bin-sdk\javafx-sdk-21.0.9\lib" --add-modules javafx.controls -cp scripts LoginPage
-(May need to compile all java files at once)!
 
 
 
