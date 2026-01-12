@@ -1,5 +1,5 @@
 # Airline-Reservation-System
-- This is a desktop-based Airline Reservation System that allows users to:
+This is a desktop-based Airline Reservation System that allows users to:
 - Log in or create an account
 - Browse and search available flights
 - Filter flights by origin, destination, and departure date
